@@ -1,0 +1,109 @@
+{% load admin_extras %}
+
+<div>
+  <h4 class="mb-3">Historique Utilisateur</h4>
+
+  <div class="p-3 mb-3 border rounded">
+    <div class="row align-items-end">
+      <div class="col-md-4">
+        <label class="form-label fw-semibold">Durée de conservation (années)</label>
+        <input id="retention_years" type="number" class="form-control" min="1" max="10"
+               value="{{ retention_years }}" required>
+        <small class="text-muted">
+          Exemple : 2 ans en {{ current_year }} ⇒ conserver {{ years_kept }} ; supprimer avant.
+        </small>
+      </div>
+
+      <div class="col-md-8">
+        <button class="btn btn-primary" onclick="saveRetention()">Enregistrer</button>
+        <button class="btn btn-outline-danger ms-2" onclick="purgeHistory()">Purger maintenant</button>
+        <span id="hist_msg" class="ms-3 text-success fw-semibold"></span>
+      </div>
+    </div>
+
+    <div class="alert alert-info py-2 mt-3 mb-0">
+      <strong>Conservation actuelle :</strong> {{ retention_years }} an(s) —
+      <strong>Année courante :</strong> {{ current_year }} —
+      <strong>Années conservées :</strong> {{ years_kept }}
+    </div>
+  </div>
+
+  <div class="table-responsive">
+    <table class="table table-striped align-middle">
+      <thead>
+        <tr>
+          <th>DATE</th>
+          <th>HEURE</th>
+          <th>Utilisateur</th>
+          <th>Action</th>
+          <th>App</th>
+          <th>Modèle</th>
+          <th>Objet</th>
+          <th>Session</th>
+          <th>Navigateur</th>
+          <th>URL</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for h in history_rows %}
+          <tr>
+            <td>{{ h.date_action }}</td>
+            <td>{{ h.heure_action }}</td>
+
+            <td>
+              {% if h.user %}
+                <div class="fw-semibold">{{ h.user.email }}</div>
+
+                {% if h.user.role and h.user.role.nom_role %}
+                  {% if h.user.role.nom_role == "Administrateur" %}
+                    <span class="badge bg-danger">{{ h.user.role.nom_role }}</span>
+                  {% elif h.user.role.nom_role == "Moderateur" %}
+                    <span class="badge bg-warning text-dark">{{ h.user.role.nom_role }}</span>
+                  {% elif h.user.role.nom_role == "Utilisateur" %}
+                    <span class="badge bg-primary">{{ h.user.role.nom_role }}</span>
+                  {% elif h.user.role.nom_role == "Responsable de Saisie" %}
+                    <span class="badge bg-success">{{ h.user.role.nom_role }}</span>
+                  {% else %}
+                    <span class="badge bg-secondary">{{ h.user.role.nom_role }}</span>
+                  {% endif %}
+                {% else %}
+                  <span class="badge bg-secondary">rôle inconnu</span>
+                {% endif %}
+
+              {% else %}
+                <span class="badge bg-light text-dark border">non connecté</span>
+              {% endif %}
+            </td>
+
+            <td><span class="badge bg-secondary">{{ h.action }}</span></td>
+            <td>{{ h.app_label }}</td>
+            <td>{{ h.model_name }}</td>
+            <td>{{ h.object_repr }}</td>
+
+            <td class="text-muted small">
+              {% with sk=h.details|extract_session_key %}
+                {{ sk|default:"—" }}
+              {% endwith %}
+            </td>
+
+            <td class="text-muted small" style="max-width: 420px; word-break: break-word;">
+              {% with ua=h.details|extract_user_agent %}
+                {{ ua|default:"—" }}
+              {% endwith %}
+            </td>
+
+            <td style="max-width: 380px; word-break: break-word;">
+              {% if h.url %}
+                <a href="{{ h.url }}" target="_blank" rel="noopener">{{ h.url }}</a>
+              {% else %}
+                —
+              {% endif %}
+            </td>
+          </tr>
+        {% empty %}
+          <tr><td colspan="10" class="text-center text-muted">Aucun historique.</td></tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+</div>

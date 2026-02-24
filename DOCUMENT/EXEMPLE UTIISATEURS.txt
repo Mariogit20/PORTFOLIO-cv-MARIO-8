@@ -1,0 +1,16 @@
+Administrateur
+admin@exemple.com
+admin123
+
+Moderateur
+sacha@yahoo.fr
+sachasacha
+
+Utilisateur
+laurence@yahoo.com
+laurence
+
+Responsable de Saisie 
+victor@hotmail.fr
+victorvictor
+
