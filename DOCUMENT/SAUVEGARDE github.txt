@@ -1,0 +1,583 @@
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github19
+$ git init
+Initialized empty Git repository in D:/PYTHON DJANGO HOPES/github19/.git/
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github19 (master)
+$ git clone https://github.com/Mariogit20/PORTFOLIO-cv-MARIO-8.git
+Cloning into 'PORTFOLIO-cv-MARIO-8'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+Receiving objects: 100% (3/3), done.
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github19 (master)
+$ git lfs install
+git lfs track "*.mp4" "*.mov" "*.mkv" "*.avi"
+git add .gitattributes
+git commit -m "Configurer Git LFS pour les vidéos"
+Updated Git hooks.
+Git LFS initialized.
+Tracking "*.mp4"
+Tracking "*.mov"
+Tracking "*.mkv"
+Tracking "*.avi"
+[master (root-commit) c190bb3] Configurer Git LFS pour les vidéos
+ 1 file changed, 4 insertions(+)
+ create mode 100644 .gitattributes
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github19 (master)
+$ git add *
+warning: adding embedded git repository: PORTFOLIO-cv-MARIO-8
+hint: You've added another git repository inside your current repository.
+hint: Clones of the outer repository will not contain the contents of
+hint: the embedded repository and will not know how to obtain it.
+hint: If you meant to add a submodule, use:
+hint:
+hint:   git submodule add <url> PORTFOLIO-cv-MARIO-8
+hint:
+hint: If you added this path by mistake, you can remove it from the
+hint: index with:
+hint:
+hint:   git rm --cached PORTFOLIO-cv-MARIO-8
+hint:
+hint: See "git help submodule" for more information.
+hint: Disable this message with "git config advice.addEmbeddedRepo false"
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github19 (master)
+$ cd  PORTFOLIO-cv-MARIO-8
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github19/PORTFOLIO-cv-MARIO-8 (main)
+$ git add *
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github19/PORTFOLIO-cv-MARIO-8 (main)
+$ git commit -m "first commit"
+[main 9ef0f73] first commit
+ 36 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 VIDEO PORTFOLIO 6min/PORTFOLIO-cv-MARIO-8-00.00.00.000-00.06
+.47.985-seg01.mkv
+ create mode 100644 VIDEO PORTFOLIO 6min/PORTFOLIO-cv-MARIO-8-00.06.47.985-00.13
+.35.970-seg02.mkv
+ create mode 100644 VIDEO PORTFOLIO 6min/PORTFOLIO-cv-MARIO-8-00.13.35.970-00.20
+.23.954-seg03.mkv
+ create mode 100644 VIDEO PORTFOLIO 6min/PORTFOLIO-cv-MARIO-8-00.20.23.954-00.27
+.11.939-seg04.mkv
+ create mode 100644 VIDEO PORTFOLIO 6min/PORTFOLIO-cv-MARIO-8-00.27.11.939-00.33
+.59.924-seg05.mkv
+ create mode 100644 VIDEO PORTFOLIO 6min/PORTFOLIO-cv-MARIO-8-00.33.59.924-00.40
+.47.909-seg06.mkv
+ create mode 100644 VIDEO PORTFOLIO 6min/PORTFOLIO-cv-MARIO-8-00.40.47.909-00.47
+.35.894-seg07.mkv
+ create mode 100644 VIDEO PORTFOLIO 6min/PORTFOLIO-cv-MARIO-8-00.47.35.894-00.54
+.23.879-seg08.mkv
+ create mode 100644 VIDEO PORTFOLIO 6min/PORTFOLIO-cv-MARIO-8-00.54.23.879-01.01
+.11.863-seg09.mkv
+ create mode 100644 VIDEO PORTFOLIO 6min/PORTFOLIO-cv-MARIO-8-01.01.11.863-01.07
+.59.848-seg10.mkv
+ create mode 100644 VIDEO PORTFOLIO 6min/PORTFOLIO-cv-MARIO-8-01.07.59.848-01.14
+.47.833-seg11.mkv
+ create mode 100644 VIDEO PORTFOLIO 6min/PORTFOLIO-cv-MARIO-8-01.14.47.833-01.21
+.35.818-seg12.mkv
+ create mode 100644 VIDEO PORTFOLIO 6min/PORTFOLIO-cv-MARIO-8-01.21.35.818-01.28
+.23.803-seg13.mkv
+ create mode 100644 VIDEO PORTFOLIO 6min/PORTFOLIO-cv-MARIO-8-01.28.23.803-01.35
+.11.788-seg14.mkv
+ create mode 100644 VIDEO PORTFOLIO 6min/PORTFOLIO-cv-MARIO-8-01.35.11.788-01.41
+.59.772-seg15.mkv
+ create mode 100644 VIDEO PORTFOLIO 6min/PORTFOLIO-cv-MARIO-8-01.41.59.772-01.48
+.47.757-seg16.mkv
+ create mode 100644 VIDEO PORTFOLIO 6min/PORTFOLIO-cv-MARIO-8-01.48.47.757-01.55
+.35.742-seg17.mkv
+ create mode 100644 VIDEO PORTFOLIO 6min/PORTFOLIO-cv-MARIO-8-01.55.35.742-02.02
+.23.727-seg18.mkv
+ create mode 100644 VIDEO PORTFOLIO 6min/PORTFOLIO-cv-MARIO-8-02.02.23.727-02.09
+.11.712-seg19.mkv
+ create mode 100644 VIDEO PORTFOLIO 6min/PORTFOLIO-cv-MARIO-8-02.09.11.712-02.15
+.59.696-seg20.mkv
+ create mode 100644 VIDEO PORTFOLIO 6min/PORTFOLIO-cv-MARIO-8-02.15.59.696-02.22
+.47.681-seg21.mkv
+ create mode 100644 VIDEO PORTFOLIO 6min/PORTFOLIO-cv-MARIO-8-02.22.47.681-02.29
+.35.666-seg22.mkv
+ create mode 100644 VIDEO PORTFOLIO 6min/PORTFOLIO-cv-MARIO-8-02.29.35.666-02.36
+.23.651-seg23.mkv
+ create mode 100644 VIDEO PORTFOLIO 6min/PORTFOLIO-cv-MARIO-8-02.36.23.651-02.43
+.11.636-seg24.mkv
+ create mode 100644 VIDEO PORTFOLIO 6min/PORTFOLIO-cv-MARIO-8-02.43.11.636-02.49
+.59.621-seg25.mkv
+ create mode 100644 VIDEO PORTFOLIO 6min/PORTFOLIO-cv-MARIO-8-02.49.59.621-02.56
+.47.605-seg26.mkv
+ create mode 100644 VIDEO PORTFOLIO 6min/PORTFOLIO-cv-MARIO-8-02.56.47.605-03.03
+.35.590-seg27.mkv
+ create mode 100644 VIDEO PORTFOLIO 6min/PORTFOLIO-cv-MARIO-8-03.03.35.590-03.10
+.23.575-seg28.mkv
+ create mode 100644 VIDEO PORTFOLIO 6min/PORTFOLIO-cv-MARIO-8-03.10.23.575-03.17
+.11.560-seg29.mkv
+ create mode 100644 VIDEO PORTFOLIO 6min/PORTFOLIO-cv-MARIO-8-03.17.11.560-03.23
+.59.545-seg30.mkv
+ create mode 100644 VIDEO PORTFOLIO 6min/PORTFOLIO-cv-MARIO-8-03.23.59.545-03.30
+.47.530-seg31.mkv
+ create mode 100644 VIDEO PORTFOLIO 6min/PORTFOLIO-cv-MARIO-8-03.30.47.530-03.37
+.35.514-seg32.mkv
+ create mode 100644 VIDEO PORTFOLIO 6min/PORTFOLIO-cv-MARIO-8-03.37.35.514-03.44
+.23.499-seg33.mkv
+ create mode 100644 VIDEO PORTFOLIO 6min/PORTFOLIO-cv-MARIO-8-03.44.23.499-03.51
+.11.484-seg34.mkv
+ create mode 100644 VIDEO PORTFOLIO 6min/PORTFOLIO-cv-MARIO-8-03.51.11.484-03.57
+.59.469-seg35.mkv
+ create mode 100644 VIDEO PORTFOLIO 6min/PORTFOLIO-cv-MARIO-8-03.57.59.469-03.58
+.40.250-seg36.mkv
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github19/PORTFOLIO-cv-MARIO-8 (main)
+$ git push
+Enumerating objects: 40, done.
+Counting objects: 100% (40/40), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (39/39), done.
+Writing objects: 100% (39/39), 820.62 MiB | 21.99 MiB/s, done.
+Total 39 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+error: RPC failed; HTTP 408 curl 22 The requested URL returned error: 408
+send-pack: unexpected disconnect while reading sideband packet
+fatal: the remote end hung up unexpectedly
+Everything up-to-date
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github19/PORTFOLIO-cv-MARIO-8 (main)
+$ git lfs status
+git lfs ls-files
+On branch main
+Objects to be pushed to origin/main:
+
+
+Objects to be committed:
+
+
+Objects not staged for commit:
+
+
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github19/PORTFOLIO-cv-MARIO-8 (main)
+$ cd "/d/PYTHON DJANGO HOPES/github19/PORTFOLIO-cv-MARIO-8"
+
+git lfs install
+git lfs track "*.mp4" "*.mov" "*.mkv" "*.avi"
+
+git add .gitattributes
+git commit -m "Track videos with Git LFS"
+Updated Git hooks.
+Git LFS initialized.
+Tracking "*.mp4"
+Tracking "*.mov"
+Tracking "*.mkv"
+Tracking "*.avi"
+[main 69de518] Track videos with Git LFS
+ 1 file changed, 4 insertions(+)
+ create mode 100644 .gitattributes
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github19/PORTFOLIO-cv-MARIO-8 (main)
+$ git lfs migrate import --include="*.mp4,*.mov,*.mkv,*.avi"
+migrate: override changes in your working copy?  All uncommitted changes will be
+ lost! [y/N] y
+migrate: changes in your working copy will be overridden ...
+migrate: Fetching remote refs: ..., done.
+migrate: Sorting commits: ..., done.
+migrate: Rewriting commits: 100% (2/2), done.
+  main  69de51870ac5578c8c1c67026d526968138cc0af -> ca5237d8c5793a4e342e3671b142
+d4ec81740a11
+migrate: Updating refs: ..., done.
+migrate: checkout: ..., done.
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github19/PORTFOLIO-cv-MARIO-8 (main)
+$ git lfs ls-files
+git status
+45239db76c - VIDEO PORTFOLIO 6min/PORTFOLIO-cv-MARIO-8-00.00.00.000-00.06.47.985
+-seg01.mkv
+8d3fd7f52b - VIDEO PORTFOLIO 6min/PORTFOLIO-cv-MARIO-8-00.06.47.985-00.13.35.970
+-seg02.mkv
+8488ef8bd5 - VIDEO PORTFOLIO 6min/PORTFOLIO-cv-MARIO-8-00.13.35.970-00.20.23.954
+-seg03.mkv
+4e039d2b79 - VIDEO PORTFOLIO 6min/PORTFOLIO-cv-MARIO-8-00.20.23.954-00.27.11.939
+-seg04.mkv
+03e82a8a04 - VIDEO PORTFOLIO 6min/PORTFOLIO-cv-MARIO-8-00.27.11.939-00.33.59.924
+-seg05.mkv
+361184ca76 - VIDEO PORTFOLIO 6min/PORTFOLIO-cv-MARIO-8-00.33.59.924-00.40.47.909
+-seg06.mkv
+2cc844a08c - VIDEO PORTFOLIO 6min/PORTFOLIO-cv-MARIO-8-00.40.47.909-00.47.35.894
+-seg07.mkv
+c4759a30e8 - VIDEO PORTFOLIO 6min/PORTFOLIO-cv-MARIO-8-00.47.35.894-00.54.23.879
+-seg08.mkv
+7fe82b5d6f - VIDEO PORTFOLIO 6min/PORTFOLIO-cv-MARIO-8-00.54.23.879-01.01.11.863
+-seg09.mkv
+9b8454298a - VIDEO PORTFOLIO 6min/PORTFOLIO-cv-MARIO-8-01.01.11.863-01.07.59.848
+-seg10.mkv
+5b2aa74fa9 - VIDEO PORTFOLIO 6min/PORTFOLIO-cv-MARIO-8-01.07.59.848-01.14.47.833
+-seg11.mkv
+e2464aedcf - VIDEO PORTFOLIO 6min/PORTFOLIO-cv-MARIO-8-01.14.47.833-01.21.35.818
+-seg12.mkv
+2ce89d9ec2 - VIDEO PORTFOLIO 6min/PORTFOLIO-cv-MARIO-8-01.21.35.818-01.28.23.803
+-seg13.mkv
+49ec4a87a3 - VIDEO PORTFOLIO 6min/PORTFOLIO-cv-MARIO-8-01.28.23.803-01.35.11.788
+-seg14.mkv
+862337089b - VIDEO PORTFOLIO 6min/PORTFOLIO-cv-MARIO-8-01.35.11.788-01.41.59.772
+-seg15.mkv
+dfd7213194 - VIDEO PORTFOLIO 6min/PORTFOLIO-cv-MARIO-8-01.41.59.772-01.48.47.757
+-seg16.mkv
+11262d20b0 - VIDEO PORTFOLIO 6min/PORTFOLIO-cv-MARIO-8-01.48.47.757-01.55.35.742
+-seg17.mkv
+72b666a33b - VIDEO PORTFOLIO 6min/PORTFOLIO-cv-MARIO-8-01.55.35.742-02.02.23.727
+-seg18.mkv
+7245c943bc - VIDEO PORTFOLIO 6min/PORTFOLIO-cv-MARIO-8-02.02.23.727-02.09.11.712
+-seg19.mkv
+b25f5dea0a - VIDEO PORTFOLIO 6min/PORTFOLIO-cv-MARIO-8-02.09.11.712-02.15.59.696
+-seg20.mkv
+1ca3d4c094 - VIDEO PORTFOLIO 6min/PORTFOLIO-cv-MARIO-8-02.15.59.696-02.22.47.681
+-seg21.mkv
+5ff5306ef7 - VIDEO PORTFOLIO 6min/PORTFOLIO-cv-MARIO-8-02.22.47.681-02.29.35.666
+-seg22.mkv
+3ad1df692b - VIDEO PORTFOLIO 6min/PORTFOLIO-cv-MARIO-8-02.29.35.666-02.36.23.651
+-seg23.mkv
+6a30672012 - VIDEO PORTFOLIO 6min/PORTFOLIO-cv-MARIO-8-02.36.23.651-02.43.11.636
+-seg24.mkv
+0b8a67034f - VIDEO PORTFOLIO 6min/PORTFOLIO-cv-MARIO-8-02.43.11.636-02.49.59.621
+-seg25.mkv
+d9995ca6b9 - VIDEO PORTFOLIO 6min/PORTFOLIO-cv-MARIO-8-02.49.59.621-02.56.47.605
+-seg26.mkv
+335da74758 - VIDEO PORTFOLIO 6min/PORTFOLIO-cv-MARIO-8-02.56.47.605-03.03.35.590
+-seg27.mkv
+40a23525bf - VIDEO PORTFOLIO 6min/PORTFOLIO-cv-MARIO-8-03.03.35.590-03.10.23.575
+-seg28.mkv
+516cbe2771 - VIDEO PORTFOLIO 6min/PORTFOLIO-cv-MARIO-8-03.10.23.575-03.17.11.560
+-seg29.mkv
+79971b1007 - VIDEO PORTFOLIO 6min/PORTFOLIO-cv-MARIO-8-03.17.11.560-03.23.59.545
+-seg30.mkv
+e688dccebb - VIDEO PORTFOLIO 6min/PORTFOLIO-cv-MARIO-8-03.23.59.545-03.30.47.530
+-seg31.mkv
+c25691217d - VIDEO PORTFOLIO 6min/PORTFOLIO-cv-MARIO-8-03.30.47.530-03.37.35.514
+-seg32.mkv
+f1c0cbe890 - VIDEO PORTFOLIO 6min/PORTFOLIO-cv-MARIO-8-03.37.35.514-03.44.23.499
+-seg33.mkv
+68ffdeee10 - VIDEO PORTFOLIO 6min/PORTFOLIO-cv-MARIO-8-03.44.23.499-03.51.11.484
+-seg34.mkv
+d3879ea16e - VIDEO PORTFOLIO 6min/PORTFOLIO-cv-MARIO-8-03.51.11.484-03.57.59.469
+-seg35.mkv
+52dc9c67b0 - VIDEO PORTFOLIO 6min/PORTFOLIO-cv-MARIO-8-03.57.59.469-03.58.40.250
+-seg36.mkv
+On branch main
+Your branch is ahead of 'origin/main' by 2 commits.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github19/PORTFOLIO-cv-MARIO-8 (main)
+$ git config --global http.postBuffer 524288000
+git config --global http.lowSpeedLimit 0
+git config --global http.lowSpeedTime 999999
+
+git push --force-with-lease origin main
+Uploading LFS objects:   0% (0/36), 22 MB | 71 KB/s
+Exiting because of "interrupt" signal.
+
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github19/PORTFOLIO-cv-MARIO-8 (main)
+$ git config --global lfs.concurrenttransfers 1
+git config --global lfs.activitytimeout 600
+git config --global lfs.tlstimeout 600
+
+git lfs push --all origin main
+git push --force-with-lease origin main
+Uploading LFS objects:   0% (0/36), 8.0 MB | 85 KB/s
+Exiting because of "interrupt" signal.
+
+
+Exiting because of "interrupt" signal.
+
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github19/PORTFOLIO-cv-MARIO-8 (main)
+$ git config --global lfs.concurrenttransfers 1
+git config --global http.lowSpeedLimit 0
+git config --global http.lowSpeedTime 999999
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github19/PORTFOLIO-cv-MARIO-8 (main)
+$ git lfs push --all origin main
+Uploading LFS objects:  11% (4/36), 162 MB | 132 KB/s, done.
+batch response: Post "https://github.com/Mariogit20/Chat_API_DJANGO_mario.git/in
+fo/lfs/objects/batch": dial tcp: lookup github.com: no such host
+batch response: Post "https://github.com/Mariogit20/Chat_API_DJANGO_mario.git/in
+fo/lfs/objects/batch": dial tcp: lookup github.com: no such host
+batch response: Post "https://github.com/Mariogit20/Chat_API_DJANGO_mario.git/in
+fo/lfs/objects/batch": dial tcp: lookup github.com: no such host
+batch response: Post "https://github.com/Mariogit20/Chat_API_DJANGO_mario.git/in
+fo/lfs/objects/batch": dial tcp: lookup github.com: no such host
+batch response: Post "https://github.com/Mariogit20/Chat_API_DJANGO_mario.git/in
+fo/lfs/objects/batch": dial tcp: lookup github.com: no such host
+batch response: Post "https://github.com/Mariogit20/Chat_API_DJANGO_mario.git/in
+fo/lfs/objects/batch": dial tcp: lookup github.com: no such host
+batch response: Post "https://github.com/Mariogit20/Chat_API_DJANGO_mario.git/in
+fo/lfs/objects/batch": dial tcp: lookup github.com: no such host
+batch response: Post "https://github.com/Mariogit20/Chat_API_DJANGO_mario.git/in
+fo/lfs/objects/batch": dial tcp: lookup github.com: no such host
+batch response: Post "https://github.com/Mariogit20/Chat_API_DJANGO_mario.git/in
+fo/lfs/objects/batch": dial tcp: lookup github.com: no such host
+batch response: Post "https://github.com/Mariogit20/Chat_API_DJANGO_mario.git/in
+fo/lfs/objects/batch": dial tcp: lookup github.com: no such host
+batch response: Post "https://github.com/Mariogit20/Chat_API_DJANGO_mario.git/in
+fo/lfs/objects/batch": dial tcp: lookup github.com: no such host
+batch response: Post "https://github.com/Mariogit20/Chat_API_DJANGO_mario.git/in
+fo/lfs/objects/batch": dial tcp: lookup github.com: no such host
+batch response: Post "https://github.com/Mariogit20/Chat_API_DJANGO_mario.git/in
+fo/lfs/objects/batch": dial tcp: lookup github.com: no such host
+batch response: Post "https://github.com/Mariogit20/Chat_API_DJANGO_mario.git/in
+fo/lfs/objects/batch": dial tcp: lookup github.com: no such host
+batch response: Post "https://github.com/Mariogit20/Chat_API_DJANGO_mario.git/in
+fo/lfs/objects/batch": dial tcp: lookup github.com: no such host
+batch response: Post "https://github.com/Mariogit20/Chat_API_DJANGO_mario.git/in
+fo/lfs/objects/batch": dial tcp: lookup github.com: no such host
+batch response: Post "https://github.com/Mariogit20/Chat_API_DJANGO_mario.git/in
+fo/lfs/objects/batch": dial tcp: lookup github.com: no such host
+batch response: Post "https://github.com/Mariogit20/Chat_API_DJANGO_mario.git/in
+fo/lfs/objects/batch": dial tcp: lookup github.com: no such host
+batch response: Post "https://github.com/Mariogit20/Chat_API_DJANGO_mario.git/in
+fo/lfs/objects/batch": dial tcp: lookup github.com: no such host
+batch response: Post "https://github.com/Mariogit20/Chat_API_DJANGO_mario.git/in
+fo/lfs/objects/batch": dial tcp: lookup github.com: no such host
+batch response: Post "https://github.com/Mariogit20/Chat_API_DJANGO_mario.git/in
+fo/lfs/objects/batch": dial tcp: lookup github.com: no such host
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github19/PORTFOLIO-cv-MARIO-8 (main)
+$
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github19
+$ git init
+Initialized empty Git repository in D:/PYTHON DJANGO HOPES/github19/.git/
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github19 (master)
+$ git clone https://github.com/Mariogit20/PORTFOLIO-cv-MARIO-8.git
+Cloning into 'PORTFOLIO-cv-MARIO-8'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+Receiving objects: 100% (3/3), done.
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github19 (master)
+$ git lfs install
+git lfs track "*.mp4" "*.mov" "*.mkv" "*.avi"
+git add .gitattributes
+git commit -m "Configurer Git LFS pour les vidéos"
+Updated Git hooks.
+Git LFS initialized.
+Tracking "*.mp4"
+Uploading LFS objects:   3% (1/36), 50 MB | 141 KB/s DJANGO HOPES/github19/PORTF
+bash: AzureAD+SPSSE02MEN@DESKTOP-S95K8U0: command not found
+bash: $: command not found
+bash: Initialized: command not found
+bash: syntax error near unexpected token `('
+bash: $: command not found
+bash: Cloning: command not found
+bash: remote:: command not found
+bash: syntax error near unexpected token `('
+bash: syntax error near unexpected token `('
+bash: syntax error near unexpected token `('
+bash: syntax error near unexpected token `('
+bash: syntax error near unexpected token `('
+bash: $: command not found
+"*.mp4" already supported
+"*.mov" already supported
+"*.mkv" already supported
+"*.avi" already supported
+On branch main
+Your branch is ahead of 'origin/main' by 2 commits.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+bash: Updated: command not found
+Error: unknown command "initialized." for "git-lfs"
+Run 'git-lfs --help' for usage.
+bash: Tracking: command not found
+bash: Tracking: command not found
+bash: Tracking: command not found
+bash: Tracking: command not found
+bash: syntax error near unexpected token `root-commit'
+bash: syntax error near unexpected token `('
+bash: create: command not found
+bash: syntax error near unexpected token `('
+bash: $: command not found
+bash: warning:: command not found
+> ^C
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github19/PORTFOLIO-cv-MARIO-8 (main)
+$ git config --global lfs.concurrenttransfers 1
+git config --global http.lowSpeedLimit 0
+git config --global http.lowSpeedTime 999999
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github19/PORTFOLIO-cv-MARIO-8 (main)
+$ git lfs push --all origin main
+Uploading LFS objects: 100% (36/36), 889 MB | 285 KB/s, done.
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github19/PORTFOLIO-cv-MARIO-8 (main)
+$ git push --force-with-lease origin main
+Uploading LFS objects: 100% (36/36), 889 MB | 0 B/s, done.
+Enumerating objects: 44, done.
+Counting objects: 100% (44/44), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (43/43), done.
+Writing objects: 100% (43/43), 6.29 KiB | 238.00 KiB/s, done.
+Total 43 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), done.
+To https://github.com/Mariogit20/PORTFOLIO-cv-MARIO-8.git
+   137be81..ca5237d  main -> main
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github19/PORTFOLIO-cv-MARIO-8 (main)
+$ git lfs status
+git status
+On branch main
+Objects to be pushed to origin/main:
+
+
+Objects to be committed:
+
+
+Objects not staged for commit:
+
+
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github19/PORTFOLIO-cv-MARIO-8 (main)
+$ hint: You've added another git repository inside your current repository.
+hiwarning: adding embedded git repository: PORTFOLIO-cv-MARIO-8
+  hint: You've added another git repository inside your current repository.
+higit config --global lfs.concurrenttransfers 1
+  hint: You've added another git repository inside your current repository.
+hiwarning: adding embedded git repository: PORTFOLIO-cv-MARIO-8
+                                                               ^C
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github19/PORTFOLIO-cv-MARIO-8 (main)
+$ git add .
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github19/PORTFOLIO-cv-MARIO-8 (main)
+$
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github19/PORTFOLIO-cv-MARIO-8 (main)
+$ cd "VIDEO PORTFOLIO 4seg"
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github19/PORTFOLIO-cv-MARIO-8/VIDEO PORTFOLIO 4seg (main)
+$ git add .
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github19/PORTFOLIO-cv-MARIO-8/VIDEO PORTFOLIO 4seg (main)
+$ hint: You've added another git repository inside your current repository.
+hiwarning: adding embedded git repository: PORTFOLIO-cv-MARIO-8
+  ^C
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github19/PORTFOLIO-cv-MARIO-8/VIDEO PORTFOLIO 4seg (main)
+$ git commit -m "second commit"
+[main 88d58a5] second commit
+ 4 files changed, 12 insertions(+)
+ create mode 100644 VIDEO PORTFOLIO 4seg/PORTFOLIO-cv-MARIO-8-00.00.00.000-00.59
+.40.063-seg1.mkv
+ create mode 100644 VIDEO PORTFOLIO 4seg/PORTFOLIO-cv-MARIO-8-00.59.40.063-01.59
+.20.125-seg2.mkv
+ create mode 100644 VIDEO PORTFOLIO 4seg/PORTFOLIO-cv-MARIO-8-01.59.20.125-02.59
+.00.188-seg3.mkv
+ create mode 100644 VIDEO PORTFOLIO 4seg/PORTFOLIO-cv-MARIO-8-02.59.00.188-03.58
+.40.250-seg4.mkv
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github19/PORTFOLIO-cv-MARIO-8/VIDEO PORTFOLIO 4seg (main)
+$ git push
+Uploading LFS objects:   0% (0/4), 37 MB | 102 KB/s
+Exiting because of "interrupt" signal.
+
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github19/PORTFOLIO-cv-MARIO-8/VIDEO PORTFOLIO 4seg (main)
+$ cd "/d/PYTHON DJANGO HOPES/github19/PORTFOLIO-cv-MARIO-8"
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github19/PORTFOLIO-cv-MARIO-8 (main)
+$ git lfs track
+Listing tracked patterns
+    *.avi (.gitattributes)
+    *.mp4 (.gitattributes)
+    *.mov (.gitattributes)
+    *.mkv (.gitattributes)
+Listing excluded patterns
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github19/PORTFOLIO-cv-MARIO-8 (main)
+$ git lfs migrate import --include="*.mkv,*.mp4,*.mov,*.avi"
+migrate: Fetching remote refs: ..., done.
+migrate: Sorting commits: ..., done.
+migrate: Rewriting commits: 100% (1/1), done.
+  main  88d58a50784660d135be3947bde8bf54ee3c365d -> 88d58a50784660d135be3947bde8
+bf54ee3c365d
+migrate: Updating refs: ..., done.
+migrate: checkout: ..., done.
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github19/PORTFOLIO-cv-MARIO-8 (main)
+$ git lfs ls-files | grep "VIDEO PORTFOLIO 4seg" || echo "PAS EN LFS"
+a9f199a8a2 * VIDEO PORTFOLIO 4seg/PORTFOLIO-cv-MARIO-8-00.00.00.000-00.59.40.063-seg1.mkv
+cb499ebf04 * VIDEO PORTFOLIO 4seg/PORTFOLIO-cv-MARIO-8-00.59.40.063-01.59.20.125-seg2.mkv
+26e931b955 * VIDEO PORTFOLIO 4seg/PORTFOLIO-cv-MARIO-8-01.59.20.125-02.59.00.188-seg3.mkv
+1b1673b985 * VIDEO PORTFOLIO 4seg/PORTFOLIO-cv-MARIO-8-02.59.00.188-03.58.40.250-seg4.mkv
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github19/PORTFOLIO-cv-MARIO-8 (main)
+$ git config --global lfs.concurrenttransfers 1
+git config --global http.lowSpeedLimit 0
+git config --global http.lowSpeedTime 999999
+
+git lfs push --all origin main
+Uploading LFS objects: 100% (40/40), 1.8 GB | 214 KB/s, done.
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github19/PORTFOLIO-cv-MARIO-8 (main)
+$ git push --force-with-lease origin main
+Uploading LFS objects: 100% (4/4), 884 MB | 0 B/s, done.
+Enumerating objects: 8, done.
+Counting objects: 100% (8/8), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (7/7), done.
+Writing objects: 100% (7/7), 946 bytes | 52.00 KiB/s, done.
+Total 7 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/Mariogit20/PORTFOLIO-cv-MARIO-8.git
+   ca5237d..88d58a5  main -> main
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github19/PORTFOLIO-cv-MARIO-8 (main)
+$ git lfs status
+git status
+On branch main
+Objects to be pushed to origin/main:
+
+
+Objects to be committed:
+
+
+Objects not staged for commit:
+
+
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github19/PORTFOLIO-cv-MARIO-8 (main)
+$ git add .
+git commit -m "add new videos"
+git lfs push --all origin main
+git push origin main
+[main 6e2367b] add new videos
+ 1 file changed, 3 insertions(+)
+ create mode 100644 VIDEO/PORTFOLIO-cv-MARIO-8.mkv
+Uploading LFS objects: 100% (41/41), 2.7 GB | 165 KB/s, done.
+Uploading LFS objects: 100% (1/1), 883 MB | 0 B/s, done.
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 444 bytes | 4.00 KiB/s, done.
+Total 4 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/Mariogit20/PORTFOLIO-cv-MARIO-8.git
+   88d58a5..6e2367b  main -> main
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github19/PORTFOLIO-cv-MARIO-8 (main)
+$
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github19/PORTFOLIO-cv-MARIO-8 (main)
+$
