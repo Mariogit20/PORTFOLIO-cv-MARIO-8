@@ -1,0 +1,1549 @@
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github19
+$ git init
+Initialized empty Git repository in D:/PYTHON DJANGO HOPES/github19/.git/
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github19 (master)
+$ git clone https://github.com/Mariogit20/PORTFOLIO-cv-MARIO-8.git
+Cloning into 'PORTFOLIO-cv-MARIO-8'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+Receiving objects: 100% (3/3), done.
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github19 (master)
+$ git lfs install
+git lfs track "*.mp4" "*.mov" "*.mkv" "*.avi"
+git add .gitattributes
+git commit -m "Configurer Git LFS pour les vidéos"
+Updated Git hooks.
+Git LFS initialized.
+Tracking "*.mp4"
+Tracking "*.mov"
+Tracking "*.mkv"
+Tracking "*.avi"
+[master (root-commit) c190bb3] Configurer Git LFS pour les vidéos
+ 1 file changed, 4 insertions(+)
+ create mode 100644 .gitattributes
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github19 (master)
+$ git add *
+warning: adding embedded git repository: PORTFOLIO-cv-MARIO-8
+hint: You've added another git repository inside your current repository.
+hint: Clones of the outer repository will not contain the contents of
+hint: the embedded repository and will not know how to obtain it.
+hint: If you meant to add a submodule, use:
+hint:
+hint:   git submodule add <url> PORTFOLIO-cv-MARIO-8
+hint:
+hint: If you added this path by mistake, you can remove it from the
+hint: index with:
+hint:
+hint:   git rm --cached PORTFOLIO-cv-MARIO-8
+hint:
+hint: See "git help submodule" for more information.
+hint: Disable this message with "git config advice.addEmbeddedRepo false"
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github19 (master)
+$ cd  PORTFOLIO-cv-MARIO-8
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github19/PORTFOLIO-cv-MARIO-8 (main)
+$ git add *
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github19/PORTFOLIO-cv-MARIO-8 (main)
+$ git commit -m "first commit"
+[main 9ef0f73] first commit
+ 36 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 VIDEO PORTFOLIO 6min/PORTFOLIO-cv-MARIO-8-00.00.00.000-00.06
+.47.985-seg01.mkv
+ create mode 100644 VIDEO PORTFOLIO 6min/PORTFOLIO-cv-MARIO-8-00.06.47.985-00.13
+.35.970-seg02.mkv
+ create mode 100644 VIDEO PORTFOLIO 6min/PORTFOLIO-cv-MARIO-8-00.13.35.970-00.20
+.23.954-seg03.mkv
+ create mode 100644 VIDEO PORTFOLIO 6min/PORTFOLIO-cv-MARIO-8-00.20.23.954-00.27
+.11.939-seg04.mkv
+ create mode 100644 VIDEO PORTFOLIO 6min/PORTFOLIO-cv-MARIO-8-00.27.11.939-00.33
+.59.924-seg05.mkv
+ create mode 100644 VIDEO PORTFOLIO 6min/PORTFOLIO-cv-MARIO-8-00.33.59.924-00.40
+.47.909-seg06.mkv
+ create mode 100644 VIDEO PORTFOLIO 6min/PORTFOLIO-cv-MARIO-8-00.40.47.909-00.47
+.35.894-seg07.mkv
+ create mode 100644 VIDEO PORTFOLIO 6min/PORTFOLIO-cv-MARIO-8-00.47.35.894-00.54
+.23.879-seg08.mkv
+ create mode 100644 VIDEO PORTFOLIO 6min/PORTFOLIO-cv-MARIO-8-00.54.23.879-01.01
+.11.863-seg09.mkv
+ create mode 100644 VIDEO PORTFOLIO 6min/PORTFOLIO-cv-MARIO-8-01.01.11.863-01.07
+.59.848-seg10.mkv
+ create mode 100644 VIDEO PORTFOLIO 6min/PORTFOLIO-cv-MARIO-8-01.07.59.848-01.14
+.47.833-seg11.mkv
+ create mode 100644 VIDEO PORTFOLIO 6min/PORTFOLIO-cv-MARIO-8-01.14.47.833-01.21
+.35.818-seg12.mkv
+ create mode 100644 VIDEO PORTFOLIO 6min/PORTFOLIO-cv-MARIO-8-01.21.35.818-01.28
+.23.803-seg13.mkv
+ create mode 100644 VIDEO PORTFOLIO 6min/PORTFOLIO-cv-MARIO-8-01.28.23.803-01.35
+.11.788-seg14.mkv
+ create mode 100644 VIDEO PORTFOLIO 6min/PORTFOLIO-cv-MARIO-8-01.35.11.788-01.41
+.59.772-seg15.mkv
+ create mode 100644 VIDEO PORTFOLIO 6min/PORTFOLIO-cv-MARIO-8-01.41.59.772-01.48
+.47.757-seg16.mkv
+ create mode 100644 VIDEO PORTFOLIO 6min/PORTFOLIO-cv-MARIO-8-01.48.47.757-01.55
+.35.742-seg17.mkv
+ create mode 100644 VIDEO PORTFOLIO 6min/PORTFOLIO-cv-MARIO-8-01.55.35.742-02.02
+.23.727-seg18.mkv
+ create mode 100644 VIDEO PORTFOLIO 6min/PORTFOLIO-cv-MARIO-8-02.02.23.727-02.09
+.11.712-seg19.mkv
+ create mode 100644 VIDEO PORTFOLIO 6min/PORTFOLIO-cv-MARIO-8-02.09.11.712-02.15
+.59.696-seg20.mkv
+ create mode 100644 VIDEO PORTFOLIO 6min/PORTFOLIO-cv-MARIO-8-02.15.59.696-02.22
+.47.681-seg21.mkv
+ create mode 100644 VIDEO PORTFOLIO 6min/PORTFOLIO-cv-MARIO-8-02.22.47.681-02.29
+.35.666-seg22.mkv
+ create mode 100644 VIDEO PORTFOLIO 6min/PORTFOLIO-cv-MARIO-8-02.29.35.666-02.36
+.23.651-seg23.mkv
+ create mode 100644 VIDEO PORTFOLIO 6min/PORTFOLIO-cv-MARIO-8-02.36.23.651-02.43
+.11.636-seg24.mkv
+ create mode 100644 VIDEO PORTFOLIO 6min/PORTFOLIO-cv-MARIO-8-02.43.11.636-02.49
+.59.621-seg25.mkv
+ create mode 100644 VIDEO PORTFOLIO 6min/PORTFOLIO-cv-MARIO-8-02.49.59.621-02.56
+.47.605-seg26.mkv
+ create mode 100644 VIDEO PORTFOLIO 6min/PORTFOLIO-cv-MARIO-8-02.56.47.605-03.03
+.35.590-seg27.mkv
+ create mode 100644 VIDEO PORTFOLIO 6min/PORTFOLIO-cv-MARIO-8-03.03.35.590-03.10
+.23.575-seg28.mkv
+ create mode 100644 VIDEO PORTFOLIO 6min/PORTFOLIO-cv-MARIO-8-03.10.23.575-03.17
+.11.560-seg29.mkv
+ create mode 100644 VIDEO PORTFOLIO 6min/PORTFOLIO-cv-MARIO-8-03.17.11.560-03.23
+.59.545-seg30.mkv
+ create mode 100644 VIDEO PORTFOLIO 6min/PORTFOLIO-cv-MARIO-8-03.23.59.545-03.30
+.47.530-seg31.mkv
+ create mode 100644 VIDEO PORTFOLIO 6min/PORTFOLIO-cv-MARIO-8-03.30.47.530-03.37
+.35.514-seg32.mkv
+ create mode 100644 VIDEO PORTFOLIO 6min/PORTFOLIO-cv-MARIO-8-03.37.35.514-03.44
+.23.499-seg33.mkv
+ create mode 100644 VIDEO PORTFOLIO 6min/PORTFOLIO-cv-MARIO-8-03.44.23.499-03.51
+.11.484-seg34.mkv
+ create mode 100644 VIDEO PORTFOLIO 6min/PORTFOLIO-cv-MARIO-8-03.51.11.484-03.57
+.59.469-seg35.mkv
+ create mode 100644 VIDEO PORTFOLIO 6min/PORTFOLIO-cv-MARIO-8-03.57.59.469-03.58
+.40.250-seg36.mkv
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github19/PORTFOLIO-cv-MARIO-8 (main)
+$ git push
+Enumerating objects: 40, done.
+Counting objects: 100% (40/40), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (39/39), done.
+Writing objects: 100% (39/39), 820.62 MiB | 21.99 MiB/s, done.
+Total 39 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+error: RPC failed; HTTP 408 curl 22 The requested URL returned error: 408
+send-pack: unexpected disconnect while reading sideband packet
+fatal: the remote end hung up unexpectedly
+Everything up-to-date
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github19/PORTFOLIO-cv-MARIO-8 (main)
+$ git lfs status
+git lfs ls-files
+On branch main
+Objects to be pushed to origin/main:
+
+
+Objects to be committed:
+
+
+Objects not staged for commit:
+
+
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github19/PORTFOLIO-cv-MARIO-8 (main)
+$ cd "/d/PYTHON DJANGO HOPES/github19/PORTFOLIO-cv-MARIO-8"
+
+git lfs install
+git lfs track "*.mp4" "*.mov" "*.mkv" "*.avi"
+
+git add .gitattributes
+git commit -m "Track videos with Git LFS"
+Updated Git hooks.
+Git LFS initialized.
+Tracking "*.mp4"
+Tracking "*.mov"
+Tracking "*.mkv"
+Tracking "*.avi"
+[main 69de518] Track videos with Git LFS
+ 1 file changed, 4 insertions(+)
+ create mode 100644 .gitattributes
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github19/PORTFOLIO-cv-MARIO-8 (main)
+$ git lfs migrate import --include="*.mp4,*.mov,*.mkv,*.avi"
+migrate: override changes in your working copy?  All uncommitted changes will be
+ lost! [y/N] y
+migrate: changes in your working copy will be overridden ...
+migrate: Fetching remote refs: ..., done.
+migrate: Sorting commits: ..., done.
+migrate: Rewriting commits: 100% (2/2), done.
+  main  69de51870ac5578c8c1c67026d526968138cc0af -> ca5237d8c5793a4e342e3671b142
+d4ec81740a11
+migrate: Updating refs: ..., done.
+migrate: checkout: ..., done.
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github19/PORTFOLIO-cv-MARIO-8 (main)
+$ git lfs ls-files
+git status
+45239db76c - VIDEO PORTFOLIO 6min/PORTFOLIO-cv-MARIO-8-00.00.00.000-00.06.47.985
+-seg01.mkv
+8d3fd7f52b - VIDEO PORTFOLIO 6min/PORTFOLIO-cv-MARIO-8-00.06.47.985-00.13.35.970
+-seg02.mkv
+8488ef8bd5 - VIDEO PORTFOLIO 6min/PORTFOLIO-cv-MARIO-8-00.13.35.970-00.20.23.954
+-seg03.mkv
+4e039d2b79 - VIDEO PORTFOLIO 6min/PORTFOLIO-cv-MARIO-8-00.20.23.954-00.27.11.939
+-seg04.mkv
+03e82a8a04 - VIDEO PORTFOLIO 6min/PORTFOLIO-cv-MARIO-8-00.27.11.939-00.33.59.924
+-seg05.mkv
+361184ca76 - VIDEO PORTFOLIO 6min/PORTFOLIO-cv-MARIO-8-00.33.59.924-00.40.47.909
+-seg06.mkv
+2cc844a08c - VIDEO PORTFOLIO 6min/PORTFOLIO-cv-MARIO-8-00.40.47.909-00.47.35.894
+-seg07.mkv
+c4759a30e8 - VIDEO PORTFOLIO 6min/PORTFOLIO-cv-MARIO-8-00.47.35.894-00.54.23.879
+-seg08.mkv
+7fe82b5d6f - VIDEO PORTFOLIO 6min/PORTFOLIO-cv-MARIO-8-00.54.23.879-01.01.11.863
+-seg09.mkv
+9b8454298a - VIDEO PORTFOLIO 6min/PORTFOLIO-cv-MARIO-8-01.01.11.863-01.07.59.848
+-seg10.mkv
+5b2aa74fa9 - VIDEO PORTFOLIO 6min/PORTFOLIO-cv-MARIO-8-01.07.59.848-01.14.47.833
+-seg11.mkv
+e2464aedcf - VIDEO PORTFOLIO 6min/PORTFOLIO-cv-MARIO-8-01.14.47.833-01.21.35.818
+-seg12.mkv
+2ce89d9ec2 - VIDEO PORTFOLIO 6min/PORTFOLIO-cv-MARIO-8-01.21.35.818-01.28.23.803
+-seg13.mkv
+49ec4a87a3 - VIDEO PORTFOLIO 6min/PORTFOLIO-cv-MARIO-8-01.28.23.803-01.35.11.788
+-seg14.mkv
+862337089b - VIDEO PORTFOLIO 6min/PORTFOLIO-cv-MARIO-8-01.35.11.788-01.41.59.772
+-seg15.mkv
+dfd7213194 - VIDEO PORTFOLIO 6min/PORTFOLIO-cv-MARIO-8-01.41.59.772-01.48.47.757
+-seg16.mkv
+11262d20b0 - VIDEO PORTFOLIO 6min/PORTFOLIO-cv-MARIO-8-01.48.47.757-01.55.35.742
+-seg17.mkv
+72b666a33b - VIDEO PORTFOLIO 6min/PORTFOLIO-cv-MARIO-8-01.55.35.742-02.02.23.727
+-seg18.mkv
+7245c943bc - VIDEO PORTFOLIO 6min/PORTFOLIO-cv-MARIO-8-02.02.23.727-02.09.11.712
+-seg19.mkv
+b25f5dea0a - VIDEO PORTFOLIO 6min/PORTFOLIO-cv-MARIO-8-02.09.11.712-02.15.59.696
+-seg20.mkv
+1ca3d4c094 - VIDEO PORTFOLIO 6min/PORTFOLIO-cv-MARIO-8-02.15.59.696-02.22.47.681
+-seg21.mkv
+5ff5306ef7 - VIDEO PORTFOLIO 6min/PORTFOLIO-cv-MARIO-8-02.22.47.681-02.29.35.666
+-seg22.mkv
+3ad1df692b - VIDEO PORTFOLIO 6min/PORTFOLIO-cv-MARIO-8-02.29.35.666-02.36.23.651
+-seg23.mkv
+6a30672012 - VIDEO PORTFOLIO 6min/PORTFOLIO-cv-MARIO-8-02.36.23.651-02.43.11.636
+-seg24.mkv
+0b8a67034f - VIDEO PORTFOLIO 6min/PORTFOLIO-cv-MARIO-8-02.43.11.636-02.49.59.621
+-seg25.mkv
+d9995ca6b9 - VIDEO PORTFOLIO 6min/PORTFOLIO-cv-MARIO-8-02.49.59.621-02.56.47.605
+-seg26.mkv
+335da74758 - VIDEO PORTFOLIO 6min/PORTFOLIO-cv-MARIO-8-02.56.47.605-03.03.35.590
+-seg27.mkv
+40a23525bf - VIDEO PORTFOLIO 6min/PORTFOLIO-cv-MARIO-8-03.03.35.590-03.10.23.575
+-seg28.mkv
+516cbe2771 - VIDEO PORTFOLIO 6min/PORTFOLIO-cv-MARIO-8-03.10.23.575-03.17.11.560
+-seg29.mkv
+79971b1007 - VIDEO PORTFOLIO 6min/PORTFOLIO-cv-MARIO-8-03.17.11.560-03.23.59.545
+-seg30.mkv
+e688dccebb - VIDEO PORTFOLIO 6min/PORTFOLIO-cv-MARIO-8-03.23.59.545-03.30.47.530
+-seg31.mkv
+c25691217d - VIDEO PORTFOLIO 6min/PORTFOLIO-cv-MARIO-8-03.30.47.530-03.37.35.514
+-seg32.mkv
+f1c0cbe890 - VIDEO PORTFOLIO 6min/PORTFOLIO-cv-MARIO-8-03.37.35.514-03.44.23.499
+-seg33.mkv
+68ffdeee10 - VIDEO PORTFOLIO 6min/PORTFOLIO-cv-MARIO-8-03.44.23.499-03.51.11.484
+-seg34.mkv
+d3879ea16e - VIDEO PORTFOLIO 6min/PORTFOLIO-cv-MARIO-8-03.51.11.484-03.57.59.469
+-seg35.mkv
+52dc9c67b0 - VIDEO PORTFOLIO 6min/PORTFOLIO-cv-MARIO-8-03.57.59.469-03.58.40.250
+-seg36.mkv
+On branch main
+Your branch is ahead of 'origin/main' by 2 commits.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github19/PORTFOLIO-cv-MARIO-8 (main)
+$ git config --global http.postBuffer 524288000
+git config --global http.lowSpeedLimit 0
+git config --global http.lowSpeedTime 999999
+
+git push --force-with-lease origin main
+Uploading LFS objects:   0% (0/36), 22 MB | 71 KB/s
+Exiting because of "interrupt" signal.
+
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github19/PORTFOLIO-cv-MARIO-8 (main)
+$ git config --global lfs.concurrenttransfers 1
+git config --global lfs.activitytimeout 600
+git config --global lfs.tlstimeout 600
+
+git lfs push --all origin main
+git push --force-with-lease origin main
+Uploading LFS objects:   0% (0/36), 8.0 MB | 85 KB/s
+Exiting because of "interrupt" signal.
+
+
+Exiting because of "interrupt" signal.
+
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github19/PORTFOLIO-cv-MARIO-8 (main)
+$ git config --global lfs.concurrenttransfers 1
+git config --global http.lowSpeedLimit 0
+git config --global http.lowSpeedTime 999999
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github19/PORTFOLIO-cv-MARIO-8 (main)
+$ git lfs push --all origin main
+Uploading LFS objects:  11% (4/36), 162 MB | 132 KB/s, done.
+batch response: Post "https://github.com/Mariogit20/Chat_API_DJANGO_mario.git/in
+fo/lfs/objects/batch": dial tcp: lookup github.com: no such host
+batch response: Post "https://github.com/Mariogit20/Chat_API_DJANGO_mario.git/in
+fo/lfs/objects/batch": dial tcp: lookup github.com: no such host
+batch response: Post "https://github.com/Mariogit20/Chat_API_DJANGO_mario.git/in
+fo/lfs/objects/batch": dial tcp: lookup github.com: no such host
+batch response: Post "https://github.com/Mariogit20/Chat_API_DJANGO_mario.git/in
+fo/lfs/objects/batch": dial tcp: lookup github.com: no such host
+batch response: Post "https://github.com/Mariogit20/Chat_API_DJANGO_mario.git/in
+fo/lfs/objects/batch": dial tcp: lookup github.com: no such host
+batch response: Post "https://github.com/Mariogit20/Chat_API_DJANGO_mario.git/in
+fo/lfs/objects/batch": dial tcp: lookup github.com: no such host
+batch response: Post "https://github.com/Mariogit20/Chat_API_DJANGO_mario.git/in
+fo/lfs/objects/batch": dial tcp: lookup github.com: no such host
+batch response: Post "https://github.com/Mariogit20/Chat_API_DJANGO_mario.git/in
+fo/lfs/objects/batch": dial tcp: lookup github.com: no such host
+batch response: Post "https://github.com/Mariogit20/Chat_API_DJANGO_mario.git/in
+fo/lfs/objects/batch": dial tcp: lookup github.com: no such host
+batch response: Post "https://github.com/Mariogit20/Chat_API_DJANGO_mario.git/in
+fo/lfs/objects/batch": dial tcp: lookup github.com: no such host
+batch response: Post "https://github.com/Mariogit20/Chat_API_DJANGO_mario.git/in
+fo/lfs/objects/batch": dial tcp: lookup github.com: no such host
+batch response: Post "https://github.com/Mariogit20/Chat_API_DJANGO_mario.git/in
+fo/lfs/objects/batch": dial tcp: lookup github.com: no such host
+batch response: Post "https://github.com/Mariogit20/Chat_API_DJANGO_mario.git/in
+fo/lfs/objects/batch": dial tcp: lookup github.com: no such host
+batch response: Post "https://github.com/Mariogit20/Chat_API_DJANGO_mario.git/in
+fo/lfs/objects/batch": dial tcp: lookup github.com: no such host
+batch response: Post "https://github.com/Mariogit20/Chat_API_DJANGO_mario.git/in
+fo/lfs/objects/batch": dial tcp: lookup github.com: no such host
+batch response: Post "https://github.com/Mariogit20/Chat_API_DJANGO_mario.git/in
+fo/lfs/objects/batch": dial tcp: lookup github.com: no such host
+batch response: Post "https://github.com/Mariogit20/Chat_API_DJANGO_mario.git/in
+fo/lfs/objects/batch": dial tcp: lookup github.com: no such host
+batch response: Post "https://github.com/Mariogit20/Chat_API_DJANGO_mario.git/in
+fo/lfs/objects/batch": dial tcp: lookup github.com: no such host
+batch response: Post "https://github.com/Mariogit20/Chat_API_DJANGO_mario.git/in
+fo/lfs/objects/batch": dial tcp: lookup github.com: no such host
+batch response: Post "https://github.com/Mariogit20/Chat_API_DJANGO_mario.git/in
+fo/lfs/objects/batch": dial tcp: lookup github.com: no such host
+batch response: Post "https://github.com/Mariogit20/Chat_API_DJANGO_mario.git/in
+fo/lfs/objects/batch": dial tcp: lookup github.com: no such host
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github19/PORTFOLIO-cv-MARIO-8 (main)
+$
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github19
+$ git init
+Initialized empty Git repository in D:/PYTHON DJANGO HOPES/github19/.git/
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github19 (master)
+$ git clone https://github.com/Mariogit20/PORTFOLIO-cv-MARIO-8.git
+Cloning into 'PORTFOLIO-cv-MARIO-8'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+Receiving objects: 100% (3/3), done.
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github19 (master)
+$ git lfs install
+git lfs track "*.mp4" "*.mov" "*.mkv" "*.avi"
+git add .gitattributes
+git commit -m "Configurer Git LFS pour les vidéos"
+Updated Git hooks.
+Git LFS initialized.
+Tracking "*.mp4"
+Uploading LFS objects:   3% (1/36), 50 MB | 141 KB/s DJANGO HOPES/github19/PORTF
+bash: AzureAD+SPSSE02MEN@DESKTOP-S95K8U0: command not found
+bash: $: command not found
+bash: Initialized: command not found
+bash: syntax error near unexpected token `('
+bash: $: command not found
+bash: Cloning: command not found
+bash: remote:: command not found
+bash: syntax error near unexpected token `('
+bash: syntax error near unexpected token `('
+bash: syntax error near unexpected token `('
+bash: syntax error near unexpected token `('
+bash: syntax error near unexpected token `('
+bash: $: command not found
+"*.mp4" already supported
+"*.mov" already supported
+"*.mkv" already supported
+"*.avi" already supported
+On branch main
+Your branch is ahead of 'origin/main' by 2 commits.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+bash: Updated: command not found
+Error: unknown command "initialized." for "git-lfs"
+Run 'git-lfs --help' for usage.
+bash: Tracking: command not found
+bash: Tracking: command not found
+bash: Tracking: command not found
+bash: Tracking: command not found
+bash: syntax error near unexpected token `root-commit'
+bash: syntax error near unexpected token `('
+bash: create: command not found
+bash: syntax error near unexpected token `('
+bash: $: command not found
+bash: warning:: command not found
+> ^C
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github19/PORTFOLIO-cv-MARIO-8 (main)
+$ git config --global lfs.concurrenttransfers 1
+git config --global http.lowSpeedLimit 0
+git config --global http.lowSpeedTime 999999
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github19/PORTFOLIO-cv-MARIO-8 (main)
+$ git lfs push --all origin main
+Uploading LFS objects: 100% (36/36), 889 MB | 285 KB/s, done.
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github19/PORTFOLIO-cv-MARIO-8 (main)
+$ git push --force-with-lease origin main
+Uploading LFS objects: 100% (36/36), 889 MB | 0 B/s, done.
+Enumerating objects: 44, done.
+Counting objects: 100% (44/44), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (43/43), done.
+Writing objects: 100% (43/43), 6.29 KiB | 238.00 KiB/s, done.
+Total 43 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), done.
+To https://github.com/Mariogit20/PORTFOLIO-cv-MARIO-8.git
+   137be81..ca5237d  main -> main
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github19/PORTFOLIO-cv-MARIO-8 (main)
+$ git lfs status
+git status
+On branch main
+Objects to be pushed to origin/main:
+
+
+Objects to be committed:
+
+
+Objects not staged for commit:
+
+
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github19/PORTFOLIO-cv-MARIO-8 (main)
+$ hint: You've added another git repository inside your current repository.
+hiwarning: adding embedded git repository: PORTFOLIO-cv-MARIO-8
+  hint: You've added another git repository inside your current repository.
+higit config --global lfs.concurrenttransfers 1
+  hint: You've added another git repository inside your current repository.
+hiwarning: adding embedded git repository: PORTFOLIO-cv-MARIO-8
+                                                               ^C
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github19/PORTFOLIO-cv-MARIO-8 (main)
+$ git add .
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github19/PORTFOLIO-cv-MARIO-8 (main)
+$
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github19/PORTFOLIO-cv-MARIO-8 (main)
+$ cd "VIDEO PORTFOLIO 4seg"
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github19/PORTFOLIO-cv-MARIO-8/VIDEO PORTFOLIO 4seg (main)
+$ git add .
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github19/PORTFOLIO-cv-MARIO-8/VIDEO PORTFOLIO 4seg (main)
+$ hint: You've added another git repository inside your current repository.
+hiwarning: adding embedded git repository: PORTFOLIO-cv-MARIO-8
+  ^C
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github19/PORTFOLIO-cv-MARIO-8/VIDEO PORTFOLIO 4seg (main)
+$ git commit -m "second commit"
+[main 88d58a5] second commit
+ 4 files changed, 12 insertions(+)
+ create mode 100644 VIDEO PORTFOLIO 4seg/PORTFOLIO-cv-MARIO-8-00.00.00.000-00.59
+.40.063-seg1.mkv
+ create mode 100644 VIDEO PORTFOLIO 4seg/PORTFOLIO-cv-MARIO-8-00.59.40.063-01.59
+.20.125-seg2.mkv
+ create mode 100644 VIDEO PORTFOLIO 4seg/PORTFOLIO-cv-MARIO-8-01.59.20.125-02.59
+.00.188-seg3.mkv
+ create mode 100644 VIDEO PORTFOLIO 4seg/PORTFOLIO-cv-MARIO-8-02.59.00.188-03.58
+.40.250-seg4.mkv
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github19/PORTFOLIO-cv-MARIO-8/VIDEO PORTFOLIO 4seg (main)
+$ git push
+Uploading LFS objects:   0% (0/4), 37 MB | 102 KB/s
+Exiting because of "interrupt" signal.
+
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github19/PORTFOLIO-cv-MARIO-8/VIDEO PORTFOLIO 4seg (main)
+$ cd "/d/PYTHON DJANGO HOPES/github19/PORTFOLIO-cv-MARIO-8"
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github19/PORTFOLIO-cv-MARIO-8 (main)
+$ git lfs track
+Listing tracked patterns
+    *.avi (.gitattributes)
+    *.mp4 (.gitattributes)
+    *.mov (.gitattributes)
+    *.mkv (.gitattributes)
+Listing excluded patterns
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github19/PORTFOLIO-cv-MARIO-8 (main)
+$ git lfs migrate import --include="*.mkv,*.mp4,*.mov,*.avi"
+migrate: Fetching remote refs: ..., done.
+migrate: Sorting commits: ..., done.
+migrate: Rewriting commits: 100% (1/1), done.
+  main  88d58a50784660d135be3947bde8bf54ee3c365d -> 88d58a50784660d135be3947bde8
+bf54ee3c365d
+migrate: Updating refs: ..., done.
+migrate: checkout: ..., done.
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github19/PORTFOLIO-cv-MARIO-8 (main)
+$ git lfs ls-files | grep "VIDEO PORTFOLIO 4seg" || echo "PAS EN LFS"
+a9f199a8a2 * VIDEO PORTFOLIO 4seg/PORTFOLIO-cv-MARIO-8-00.00.00.000-00.59.40.063-seg1.mkv
+cb499ebf04 * VIDEO PORTFOLIO 4seg/PORTFOLIO-cv-MARIO-8-00.59.40.063-01.59.20.125-seg2.mkv
+26e931b955 * VIDEO PORTFOLIO 4seg/PORTFOLIO-cv-MARIO-8-01.59.20.125-02.59.00.188-seg3.mkv
+1b1673b985 * VIDEO PORTFOLIO 4seg/PORTFOLIO-cv-MARIO-8-02.59.00.188-03.58.40.250-seg4.mkv
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github19/PORTFOLIO-cv-MARIO-8 (main)
+$ git config --global lfs.concurrenttransfers 1
+git config --global http.lowSpeedLimit 0
+git config --global http.lowSpeedTime 999999
+
+git lfs push --all origin main
+Uploading LFS objects: 100% (40/40), 1.8 GB | 214 KB/s, done.
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github19/PORTFOLIO-cv-MARIO-8 (main)
+$ git push --force-with-lease origin main
+Uploading LFS objects: 100% (4/4), 884 MB | 0 B/s, done.
+Enumerating objects: 8, done.
+Counting objects: 100% (8/8), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (7/7), done.
+Writing objects: 100% (7/7), 946 bytes | 52.00 KiB/s, done.
+Total 7 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/Mariogit20/PORTFOLIO-cv-MARIO-8.git
+   ca5237d..88d58a5  main -> main
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github19/PORTFOLIO-cv-MARIO-8 (main)
+$ git lfs status
+git status
+On branch main
+Objects to be pushed to origin/main:
+
+
+Objects to be committed:
+
+
+Objects not staged for commit:
+
+
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github19/PORTFOLIO-cv-MARIO-8 (main)
+$ git add .
+git commit -m "add new videos"
+git lfs push --all origin main
+git push origin main
+[main 6e2367b] add new videos
+ 1 file changed, 3 insertions(+)
+ create mode 100644 VIDEO/PORTFOLIO-cv-MARIO-8.mkv
+Uploading LFS objects: 100% (41/41), 2.7 GB | 165 KB/s, done.
+Uploading LFS objects: 100% (1/1), 883 MB | 0 B/s, done.
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 444 bytes | 4.00 KiB/s, done.
+Total 4 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/Mariogit20/PORTFOLIO-cv-MARIO-8.git
+   88d58a5..6e2367b  main -> main
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github19/PORTFOLIO-cv-MARIO-8 (main)
+$
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github19/PORTFOLIO-cv-MARIO-8 (main)
+$ git add .
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github19/PORTFOLIO-cv-MARIO-8 (main)
+$ git commit -m "trois commit"
+[main 3eb20f6] trois commit
+ 41 files changed, 583 insertions(+), 120 deletions(-)
+ create mode 100644 DOCUMENT/SAUVEGARDE github.txt
+ delete mode 100644 VIDEO PORTFOLIO 4seg/PORTFOLIO-cv-MARIO-8-00.00.00.000-00.59
+.40.063-seg1.mkv
+ delete mode 100644 VIDEO PORTFOLIO 4seg/PORTFOLIO-cv-MARIO-8-00.59.40.063-01.59
+.20.125-seg2.mkv
+ delete mode 100644 VIDEO PORTFOLIO 4seg/PORTFOLIO-cv-MARIO-8-01.59.20.125-02.59
+.00.188-seg3.mkv
+ delete mode 100644 VIDEO PORTFOLIO 4seg/PORTFOLIO-cv-MARIO-8-02.59.00.188-03.58
+.40.250-seg4.mkv
+ delete mode 100644 VIDEO PORTFOLIO 6min/PORTFOLIO-cv-MARIO-8-00.00.00.000-00.06
+.47.985-seg01.mkv
+ delete mode 100644 VIDEO PORTFOLIO 6min/PORTFOLIO-cv-MARIO-8-00.06.47.985-00.13
+.35.970-seg02.mkv
+ delete mode 100644 VIDEO PORTFOLIO 6min/PORTFOLIO-cv-MARIO-8-00.13.35.970-00.20
+.23.954-seg03.mkv
+ delete mode 100644 VIDEO PORTFOLIO 6min/PORTFOLIO-cv-MARIO-8-00.20.23.954-00.27
+.11.939-seg04.mkv
+ delete mode 100644 VIDEO PORTFOLIO 6min/PORTFOLIO-cv-MARIO-8-00.27.11.939-00.33
+.59.924-seg05.mkv
+ delete mode 100644 VIDEO PORTFOLIO 6min/PORTFOLIO-cv-MARIO-8-00.33.59.924-00.40
+.47.909-seg06.mkv
+ delete mode 100644 VIDEO PORTFOLIO 6min/PORTFOLIO-cv-MARIO-8-00.40.47.909-00.47
+.35.894-seg07.mkv
+ delete mode 100644 VIDEO PORTFOLIO 6min/PORTFOLIO-cv-MARIO-8-00.47.35.894-00.54
+.23.879-seg08.mkv
+ delete mode 100644 VIDEO PORTFOLIO 6min/PORTFOLIO-cv-MARIO-8-00.54.23.879-01.01
+.11.863-seg09.mkv
+ delete mode 100644 VIDEO PORTFOLIO 6min/PORTFOLIO-cv-MARIO-8-01.01.11.863-01.07
+.59.848-seg10.mkv
+ delete mode 100644 VIDEO PORTFOLIO 6min/PORTFOLIO-cv-MARIO-8-01.07.59.848-01.14
+.47.833-seg11.mkv
+ delete mode 100644 VIDEO PORTFOLIO 6min/PORTFOLIO-cv-MARIO-8-01.14.47.833-01.21
+.35.818-seg12.mkv
+ delete mode 100644 VIDEO PORTFOLIO 6min/PORTFOLIO-cv-MARIO-8-01.21.35.818-01.28
+.23.803-seg13.mkv
+ delete mode 100644 VIDEO PORTFOLIO 6min/PORTFOLIO-cv-MARIO-8-01.28.23.803-01.35
+.11.788-seg14.mkv
+ delete mode 100644 VIDEO PORTFOLIO 6min/PORTFOLIO-cv-MARIO-8-01.35.11.788-01.41
+.59.772-seg15.mkv
+ delete mode 100644 VIDEO PORTFOLIO 6min/PORTFOLIO-cv-MARIO-8-01.41.59.772-01.48
+.47.757-seg16.mkv
+ delete mode 100644 VIDEO PORTFOLIO 6min/PORTFOLIO-cv-MARIO-8-01.48.47.757-01.55
+.35.742-seg17.mkv
+ delete mode 100644 VIDEO PORTFOLIO 6min/PORTFOLIO-cv-MARIO-8-01.55.35.742-02.02
+.23.727-seg18.mkv
+ delete mode 100644 VIDEO PORTFOLIO 6min/PORTFOLIO-cv-MARIO-8-02.02.23.727-02.09
+.11.712-seg19.mkv
+ delete mode 100644 VIDEO PORTFOLIO 6min/PORTFOLIO-cv-MARIO-8-02.09.11.712-02.15
+.59.696-seg20.mkv
+ delete mode 100644 VIDEO PORTFOLIO 6min/PORTFOLIO-cv-MARIO-8-02.15.59.696-02.22
+.47.681-seg21.mkv
+ delete mode 100644 VIDEO PORTFOLIO 6min/PORTFOLIO-cv-MARIO-8-02.22.47.681-02.29
+.35.666-seg22.mkv
+ delete mode 100644 VIDEO PORTFOLIO 6min/PORTFOLIO-cv-MARIO-8-02.29.35.666-02.36
+.23.651-seg23.mkv
+ delete mode 100644 VIDEO PORTFOLIO 6min/PORTFOLIO-cv-MARIO-8-02.36.23.651-02.43
+.11.636-seg24.mkv
+ delete mode 100644 VIDEO PORTFOLIO 6min/PORTFOLIO-cv-MARIO-8-02.43.11.636-02.49
+.59.621-seg25.mkv
+ delete mode 100644 VIDEO PORTFOLIO 6min/PORTFOLIO-cv-MARIO-8-02.49.59.621-02.56
+.47.605-seg26.mkv
+ delete mode 100644 VIDEO PORTFOLIO 6min/PORTFOLIO-cv-MARIO-8-02.56.47.605-03.03
+.35.590-seg27.mkv
+ delete mode 100644 VIDEO PORTFOLIO 6min/PORTFOLIO-cv-MARIO-8-03.03.35.590-03.10
+.23.575-seg28.mkv
+ delete mode 100644 VIDEO PORTFOLIO 6min/PORTFOLIO-cv-MARIO-8-03.10.23.575-03.17
+.11.560-seg29.mkv
+ delete mode 100644 VIDEO PORTFOLIO 6min/PORTFOLIO-cv-MARIO-8-03.17.11.560-03.23
+.59.545-seg30.mkv
+ delete mode 100644 VIDEO PORTFOLIO 6min/PORTFOLIO-cv-MARIO-8-03.23.59.545-03.30
+.47.530-seg31.mkv
+ delete mode 100644 VIDEO PORTFOLIO 6min/PORTFOLIO-cv-MARIO-8-03.30.47.530-03.37
+.35.514-seg32.mkv
+ delete mode 100644 VIDEO PORTFOLIO 6min/PORTFOLIO-cv-MARIO-8-03.37.35.514-03.44
+.23.499-seg33.mkv
+ delete mode 100644 VIDEO PORTFOLIO 6min/PORTFOLIO-cv-MARIO-8-03.44.23.499-03.51
+.11.484-seg34.mkv
+ delete mode 100644 VIDEO PORTFOLIO 6min/PORTFOLIO-cv-MARIO-8-03.51.11.484-03.57
+.59.469-seg35.mkv
+ delete mode 100644 VIDEO PORTFOLIO 6min/PORTFOLIO-cv-MARIO-8-03.57.59.469-03.58
+.40.250-seg36.mkv
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github19/PORTFOLIO-cv-MARIO-8 (main)
+$ git push origin main
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 4.31 KiB | 630.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/Mariogit20/PORTFOLIO-cv-MARIO-8.git
+   6e2367b..3eb20f6  main -> main
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github19/PORTFOLIO-cv-MARIO-8 (main)
+$ git add .
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github19/PORTFOLIO-cv-MARIO-8 (main)
+$ git commit -m "quatre commit"
+[main 4d4b70f] quatre commit
+ 2 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 DOCUMENT/AJOUTER VIDEO avec Github.docx
+ create mode 100644 DOCUMENT/AJOUTER VIDEO avec Github.pdf
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github19/PORTFOLIO-cv-MARIO-8 (main)
+$ git push origin main
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (5/5), 742.89 KiB | 9.52 MiB/s, done.
+Total 5 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/Mariogit20/PORTFOLIO-cv-MARIO-8.git
+   3eb20f6..4d4b70f  main -> main
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github19/PORTFOLIO-cv-MARIO-8 (main)
+$ git add .
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github19/PORTFOLIO-cv-MARIO-8 (main)
+$ git commit -m "cinq commit"
+[main 2320cd6] cinq commit
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ rename DOCUMENT/{AJOUTER VIDEO avec Github.docx => AJOUT VIDEO avec Github.docx
+} (100%)
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github19/PORTFOLIO-cv-MARIO-8 (main)
+$ git push origin main
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 299 bytes | 299.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/Mariogit20/PORTFOLIO-cv-MARIO-8.git
+   4d4b70f..2320cd6  main -> main
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github19/PORTFOLIO-cv-MARIO-8 (main)
+$ git add .
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github19/PORTFOLIO-cv-MARIO-8 (main)
+$ git commit -m "six commit"
+[main 49bd423] six commit
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ rename DOCUMENT/{AJOUT VIDEO avec Github.docx => AJOUTER VIDEO avec Github.docx
+} (100%)
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github19/PORTFOLIO-cv-MARIO-8 (main)
+$ git push origin main
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 287 bytes | 143.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/Mariogit20/PORTFOLIO-cv-MARIO-8.git
+   2320cd6..49bd423  main -> main
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github19/PORTFOLIO-cv-MARIO-8 (main)
+$ git add .
+warning: in the working copy of 'EXEMPLE de Fichiers JSON/20260222_export_portfo
+lio.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'EXEMPLE de Fichiers JSON/20260222_export_users.
+json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'EXEMPLE de Fichiers JSON/20260224_export_portfo
+lio.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'EXEMPLE de Fichiers JSON/20260224_export_users.
+json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'app_acceuil/json_transfer.py', LF will be repla
+ced by CRLF the next time Git touches it
+warning: in the working copy of 'app_acceuil/migrations/0022_demoliveclickevent.
+py', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'app_acceuil/models.py', LF will be replaced by
+CRLF the next time Git touches it
+warning: in the working copy of 'app_acceuil/urls.py', LF will be replaced by CR
+LF the next time Git touches it
+warning: in the working copy of 'app_acceuil/views.py', LF will be replaced by C
+RLF the next time Git touches it
+warning: in the working copy of 'app_historique/urls.py', LF will be replaced by
+ CRLF the next time Git touches it
+warning: in the working copy of 'app_historique/views.py', LF will be replaced b
+y CRLF the next time Git touches it
+warning: in the working copy of 'templates/index.html', LF will be replaced by C
+RLF the next time Git touches it
+warning: in the working copy of 'templates/page_administration.html', LF will be
+ replaced by CRLF the next time Git touches it
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github19/PORTFOLIO-cv-MARIO-8 (main)
+$ git commit -m "sept commit"
+[main 4948f50] sept commit
+ 588 files changed, 17983 insertions(+)
+ create mode 100644 .gitignore
+ create mode 100644 .vscode/settings.json
+ create mode 100644 Code complet views.py main.html urls.pdf
+ create mode 100644 Code complet views.py main.html urls.py.docx
+ create mode 100644 Compteur de vues par projet.docx
+ create mode 100644 Creer ADMINISTRATEUR PAR DEFAUT.txt
+ create mode 100644 Creer FICHIER DE DONNEES INITIAL Fichier de migration v2 ACT
+UEL.docx
+ create mode 100644 Creer FICHIER DE DONNEES INITIAL Fichier de migration v2 ACT
+UEL.pdf
+ create mode 100644 Creer FICHIER DE DONNEES INITIAL Fichier de migration v2.doc
+x
+ create mode 100644 Creer FICHIER DE DONNEES INITIAL Fichier de migration v3.doc
+x
+ create mode 100644 Creer FICHIER DE DONNEES INITIAL Fichier de migration.docx
+ create mode 100644 Creer FICHIER DE DONNEES INITIAL Fichier de migration.txt
+ create mode 100644 DOCUMENT/EXEMPLE UTIISATEURS.txt
+ create mode 100644 EXEMPLE de Fichiers JSON/20260222_export_portfolio.json
+ create mode 100644 EXEMPLE de Fichiers JSON/20260222_export_users.json
+ create mode 100644 EXEMPLE de Fichiers JSON/20260224_export_portfolio.json
+ create mode 100644 EXEMPLE de Fichiers JSON/20260224_export_users.json
+ create mode 100644 Exemple de MENUS CREES avec le FICHIER DE MIGRATION.docx
+ create mode 100644 Exemple de MENUS CREES avec le FICHIER DE MIGRATION.pdf
+ create mode 100644 Export Import Fichier JSON sur Portfolio User in modul_new_u
+ser.pdf
+ create mode 100644 Export Import Fichier JSON sur Portfolio User in modul_new_u
+ser.py.docx
+ create mode 100644 Export Import Fichier JSON sur Portfolio et User.pdf
+ create mode 100644 PASSWORD Administrateur.txt
+ create mode 100644 PYTHON DJANGO Livre2.docx
+ create mode 100644 PYTHON DJANGO Livre2.pdf
+ create mode 100644 PYTHON DJANGO Livre2.txt
+ create mode 100644 PackageUser/__init__.py
+ create mode 100644 PackageUser/__pycache__/__init__.cpython-311.pyc
+ create mode 100644 PackageUser/__pycache__/__init__.cpython-312.pyc
+ create mode 100644 PackageUser/__pycache__/modul_new_user.cpython-311.pyc
+ create mode 100644 PackageUser/__pycache__/modul_new_user.cpython-312.pyc
+ create mode 100644 PackageUser/modul_new_user.py
+ create mode 100644 REMARQUE   models.pdf
+ create mode 100644 REMARQUE   models.py.docx
+ create mode 100644 app_acceuil/__init__.py
+ create mode 100644 app_acceuil/__pycache__/__init__.cpython-311.pyc
+ create mode 100644 app_acceuil/__pycache__/__init__.cpython-312.pyc
+ create mode 100644 app_acceuil/__pycache__/admin.cpython-311.pyc
+ create mode 100644 app_acceuil/__pycache__/admin.cpython-312.pyc
+ create mode 100644 app_acceuil/__pycache__/apps.cpython-311.pyc
+ create mode 100644 app_acceuil/__pycache__/apps.cpython-312.pyc
+ create mode 100644 app_acceuil/__pycache__/json_transfer.cpython-311.pyc
+ create mode 100644 app_acceuil/__pycache__/json_transfer.cpython-312.pyc
+ create mode 100644 app_acceuil/__pycache__/models.cpython-311.pyc
+ create mode 100644 app_acceuil/__pycache__/models.cpython-312.pyc
+ create mode 100644 app_acceuil/__pycache__/urls.cpython-311.pyc
+ create mode 100644 app_acceuil/__pycache__/urls.cpython-312.pyc
+ create mode 100644 app_acceuil/__pycache__/views.cpython-311.pyc
+ create mode 100644 app_acceuil/__pycache__/views.cpython-312.pyc
+ create mode 100644 app_acceuil/admin.py
+ create mode 100644 app_acceuil/apps.py
+ create mode 100644 app_acceuil/json_transfer.py
+ create mode 100644 app_acceuil/migrations/0001_initial.py
+ create mode 100644 app_acceuil/migrations/0002_alter_projetscards_description_a
+nd_more.py
+ create mode 100644 app_acceuil/migrations/0003_alter_projetscards_images.py
+ create mode 100644 app_acceuil/migrations/0004_projetscards_created_at.py
+ create mode 100644 app_acceuil/migrations/0005_projetsfirstspeciality.py
+ create mode 100644 app_acceuil/migrations/0006_projetmesrealisations.py
+ create mode 100644 app_acceuil/migrations/0007_projetphotodeprofil.py
+ create mode 100644 app_acceuil/migrations/0008_projetaproposdemoi.py
+ create mode 100644 app_acceuil/migrations/0009_mescompetencescles.py
+ create mode 100644 app_acceuil/migrations/0010_mescompetencescles_est_visible_a
+nd_more.py
+ create mode 100644 app_acceuil/migrations/0011_alter_projetaproposdemoi_options
+.py
+ create mode 100644 app_acceuil/migrations/0012_alter_projetmesrealisations_opti
+ons_and_more.py
+ create mode 100644 app_acceuil/migrations/0013_reseausocial.py
+ create mode 100644 app_acceuil/migrations/0014_alter_mescompetencescles_nom_and
+_more.py
+ create mode 100644 app_acceuil/migrations/0015_alter_reseausocial_nom.py
+ create mode 100644 app_acceuil/migrations/0016_projetmesrealisations_compteur_d
+emo_live.py
+ create mode 100644 app_acceuil/migrations/0017_alter_reseausocial_nom_alter_res
+eausocial_url.py
+ create mode 100644 app_acceuil/migrations/0018_projetscards_fingerprint.py
+ create mode 100644 app_acceuil/migrations/0019_alter_mescompetencescles_options
+_and_more.py
+ create mode 100644 app_acceuil/migrations/0020_alter_projetmesrealisations_imag
+es_and_more.py
+ create mode 100644 app_acceuil/migrations/0021_alter_reseausocial_url.py
+ create mode 100644 app_acceuil/migrations/0022_demoliveclickevent.py
+ create mode 100644 app_acceuil/migrations/0023_rename_app_acceui_realisat_4e2a5
+0_idx_app_acceuil_realisa_8b0be6_idx_and_more.py
+ create mode 100644 app_acceuil/migrations/__init__.py
+ create mode 100644 app_acceuil/migrations/__pycache__/0001_initial.cpython-311.
+pyc
+ create mode 100644 app_acceuil/migrations/__pycache__/0001_initial.cpython-312.
+pyc
+ create mode 100644 app_acceuil/migrations/__pycache__/0002_alter_projetscards_d
+escription_and_more.cpython-311.pyc
+ create mode 100644 app_acceuil/migrations/__pycache__/0002_alter_projetscards_d
+escription_and_more.cpython-312.pyc
+ create mode 100644 app_acceuil/migrations/__pycache__/0003_alter_projetscards_i
+mages.cpython-311.pyc
+ create mode 100644 app_acceuil/migrations/__pycache__/0003_alter_projetscards_i
+mages.cpython-312.pyc
+ create mode 100644 app_acceuil/migrations/__pycache__/0004_projetscards_created
+_at.cpython-311.pyc
+ create mode 100644 app_acceuil/migrations/__pycache__/0004_projetscards_created
+_at.cpython-312.pyc
+ create mode 100644 app_acceuil/migrations/__pycache__/0005_projetsfirstspeciali
+ty.cpython-311.pyc
+ create mode 100644 app_acceuil/migrations/__pycache__/0005_projetsfirstspeciali
+ty.cpython-312.pyc
+ create mode 100644 app_acceuil/migrations/__pycache__/0006_projetmesrealisation
+s.cpython-311.pyc
+ create mode 100644 app_acceuil/migrations/__pycache__/0006_projetmesrealisation
+s.cpython-312.pyc
+ create mode 100644 app_acceuil/migrations/__pycache__/0007_projetphotodeprofil.
+cpython-311.pyc
+ create mode 100644 app_acceuil/migrations/__pycache__/0007_projetphotodeprofil.
+cpython-312.pyc
+ create mode 100644 app_acceuil/migrations/__pycache__/0008_projetaproposdemoi.c
+python-311.pyc
+ create mode 100644 app_acceuil/migrations/__pycache__/0008_projetaproposdemoi.c
+python-312.pyc
+ create mode 100644 app_acceuil/migrations/__pycache__/0009_mescompetencescles.c
+python-311.pyc
+ create mode 100644 app_acceuil/migrations/__pycache__/0009_mescompetencescles.c
+python-312.pyc
+ create mode 100644 app_acceuil/migrations/__pycache__/0010_mescompetencescles_e
+st_visible_and_more.cpython-311.pyc
+ create mode 100644 app_acceuil/migrations/__pycache__/0010_mescompetencescles_e
+st_visible_and_more.cpython-312.pyc
+ create mode 100644 app_acceuil/migrations/__pycache__/0011_alter_projetaproposd
+emoi_options.cpython-311.pyc
+ create mode 100644 app_acceuil/migrations/__pycache__/0011_alter_projetaproposd
+emoi_options.cpython-312.pyc
+ create mode 100644 app_acceuil/migrations/__pycache__/0012_alter_projetmesreali
+sations_options_and_more.cpython-311.pyc
+ create mode 100644 app_acceuil/migrations/__pycache__/0012_alter_projetmesreali
+sations_options_and_more.cpython-312.pyc
+ create mode 100644 app_acceuil/migrations/__pycache__/0013_reseausocial.cpython
+-311.pyc
+ create mode 100644 app_acceuil/migrations/__pycache__/0013_reseausocial.cpython
+-312.pyc
+ create mode 100644 app_acceuil/migrations/__pycache__/0014_alter_mescompetences
+cles_nom_and_more.cpython-311.pyc
+ create mode 100644 app_acceuil/migrations/__pycache__/0014_alter_mescompetences
+cles_nom_and_more.cpython-312.pyc
+ create mode 100644 app_acceuil/migrations/__pycache__/0015_alter_reseausocial_n
+om.cpython-311.pyc
+ create mode 100644 app_acceuil/migrations/__pycache__/0015_alter_reseausocial_n
+om.cpython-312.pyc
+ create mode 100644 app_acceuil/migrations/__pycache__/0016_projetmesrealisation
+s_compteur_demo_live.cpython-311.pyc
+ create mode 100644 app_acceuil/migrations/__pycache__/0016_projetmesrealisation
+s_compteur_demo_live.cpython-312.pyc
+ create mode 100644 app_acceuil/migrations/__pycache__/0017_alter_reseausocial_n
+om_alter_reseausocial_url.cpython-311.pyc
+ create mode 100644 app_acceuil/migrations/__pycache__/0017_alter_reseausocial_n
+om_alter_reseausocial_url.cpython-312.pyc
+ create mode 100644 app_acceuil/migrations/__pycache__/0018_projetscards_fingerp
+rint.cpython-311.pyc
+ create mode 100644 app_acceuil/migrations/__pycache__/0018_projetscards_fingerp
+rint.cpython-312.pyc
+ create mode 100644 app_acceuil/migrations/__pycache__/0019_alter_mescompetences
+cles_options_and_more.cpython-311.pyc
+ create mode 100644 app_acceuil/migrations/__pycache__/0019_alter_mescompetences
+cles_options_and_more.cpython-312.pyc
+ create mode 100644 app_acceuil/migrations/__pycache__/0020_alter_projetmesreali
+sations_images_and_more.cpython-311.pyc
+ create mode 100644 app_acceuil/migrations/__pycache__/0020_alter_projetmesreali
+sations_images_and_more.cpython-312.pyc
+ create mode 100644 app_acceuil/migrations/__pycache__/0021_alter_reseausocial_u
+rl.cpython-311.pyc
+ create mode 100644 app_acceuil/migrations/__pycache__/0021_alter_reseausocial_u
+rl.cpython-312.pyc
+ create mode 100644 app_acceuil/migrations/__pycache__/0022_demoliveclickevent.c
+python-311.pyc
+ create mode 100644 app_acceuil/migrations/__pycache__/0022_demoliveclickevent.c
+python-312.pyc
+ create mode 100644 app_acceuil/migrations/__pycache__/0023_rename_app_acceui_re
+alisat_4e2a50_idx_app_acceuil_realisa_8b0be6_idx_and_more.cpython-311.pyc
+ create mode 100644 app_acceuil/migrations/__pycache__/0023_rename_app_acceui_re
+alisat_4e2a50_idx_app_acceuil_realisa_8b0be6_idx_and_more.cpython-312.pyc
+ create mode 100644 app_acceuil/migrations/__pycache__/__init__.cpython-311.pyc
+ create mode 100644 app_acceuil/migrations/__pycache__/__init__.cpython-312.pyc
+ create mode 100644 app_acceuil/models.py
+ create mode 100644 app_acceuil/tests.py
+ create mode 100644 app_acceuil/urls.py
+ create mode 100644 app_acceuil/views.py
+ create mode 100644 app_contact/__init__.py
+ create mode 100644 app_contact/__pycache__/__init__.cpython-311.pyc
+ create mode 100644 app_contact/__pycache__/__init__.cpython-312.pyc
+ create mode 100644 app_contact/__pycache__/admin.cpython-311.pyc
+ create mode 100644 app_contact/__pycache__/admin.cpython-312.pyc
+ create mode 100644 app_contact/__pycache__/apps.cpython-311.pyc
+ create mode 100644 app_contact/__pycache__/apps.cpython-312.pyc
+ create mode 100644 app_contact/__pycache__/models.cpython-311.pyc
+ create mode 100644 app_contact/__pycache__/models.cpython-312.pyc
+ create mode 100644 app_contact/__pycache__/urls.cpython-311.pyc
+ create mode 100644 app_contact/__pycache__/urls.cpython-312.pyc
+ create mode 100644 app_contact/__pycache__/views.cpython-311.pyc
+ create mode 100644 app_contact/__pycache__/views.cpython-312.pyc
+ create mode 100644 app_contact/admin.py
+ create mode 100644 app_contact/apps.py
+ create mode 100644 app_contact/migrations/0001_initial.py
+ create mode 100644 app_contact/migrations/0002_user.py
+ create mode 100644 app_contact/migrations/0003_alter_user_email.py
+ create mode 100644 app_contact/migrations/0004_user_role.py
+ create mode 100644 app_contact/migrations/0005_role_alter_user_nom_alter_user_p
+assword_and_more.py
+ create mode 100644 app_contact/migrations/0006_table_role_de_user.py
+ create mode 100644 app_contact/migrations/0007_administrateur_role.py
+ create mode 100644 app_contact/migrations/__init__.py
+ create mode 100644 app_contact/migrations/__pycache__/0001_initial.cpython-311.
+pyc
+ create mode 100644 app_contact/migrations/__pycache__/0001_initial.cpython-312.
+pyc
+ create mode 100644 app_contact/migrations/__pycache__/0002_user.cpython-311.pyc
+ create mode 100644 app_contact/migrations/__pycache__/0002_user.cpython-312.pyc
+ create mode 100644 app_contact/migrations/__pycache__/0003_alter_user_email.cpy
+thon-311.pyc
+ create mode 100644 app_contact/migrations/__pycache__/0003_alter_user_email.cpy
+thon-312.pyc
+ create mode 100644 app_contact/migrations/__pycache__/0004_user_role.cpython-31
+1.pyc
+ create mode 100644 app_contact/migrations/__pycache__/0004_user_role.cpython-31
+2.pyc
+ create mode 100644 app_contact/migrations/__pycache__/0005_role_alter_user_nom_
+alter_user_password_and_more.cpython-311.pyc
+ create mode 100644 app_contact/migrations/__pycache__/0005_role_alter_user_nom_
+alter_user_password_and_more.cpython-312.pyc
+ create mode 100644 app_contact/migrations/__pycache__/0006_table_role_de_user.c
+python-311.pyc
+ create mode 100644 app_contact/migrations/__pycache__/0006_table_role_de_user.c
+python-312.pyc
+ create mode 100644 app_contact/migrations/__pycache__/0007_administrateur_role.
+cpython-311.pyc
+ create mode 100644 app_contact/migrations/__pycache__/0007_administrateur_role.
+cpython-312.pyc
+ create mode 100644 app_contact/migrations/__pycache__/0007_setup_role.cpython-3
+11.pyc
+ create mode 100644 app_contact/migrations/__pycache__/__init__.cpython-311.pyc
+ create mode 100644 app_contact/migrations/__pycache__/__init__.cpython-312.pyc
+ create mode 100644 app_contact/models.py
+ create mode 100644 app_contact/tests.py
+ create mode 100644 app_contact/urls.py
+ create mode 100644 app_contact/views.py
+ create mode 100644 app_historique/__init__.py
+ create mode 100644 app_historique/__pycache__/__init__.cpython-311.pyc
+ create mode 100644 app_historique/__pycache__/__init__.cpython-312.pyc
+ create mode 100644 app_historique/__pycache__/admin.cpython-311.pyc
+ create mode 100644 app_historique/__pycache__/admin.cpython-312.pyc
+ create mode 100644 app_historique/__pycache__/apps.cpython-311.pyc
+ create mode 100644 app_historique/__pycache__/apps.cpython-312.pyc
+ create mode 100644 app_historique/__pycache__/middleware.cpython-311.pyc
+ create mode 100644 app_historique/__pycache__/middleware.cpython-312.pyc
+ create mode 100644 app_historique/__pycache__/models.cpython-311.pyc
+ create mode 100644 app_historique/__pycache__/models.cpython-312.pyc
+ create mode 100644 app_historique/__pycache__/services.cpython-311.pyc
+ create mode 100644 app_historique/__pycache__/services.cpython-312.pyc
+ create mode 100644 app_historique/__pycache__/signals.cpython-311.pyc
+ create mode 100644 app_historique/__pycache__/signals.cpython-312.pyc
+ create mode 100644 app_historique/__pycache__/urls.cpython-311.pyc
+ create mode 100644 app_historique/__pycache__/urls.cpython-312.pyc
+ create mode 100644 app_historique/__pycache__/views.cpython-311.pyc
+ create mode 100644 app_historique/__pycache__/views.cpython-312.pyc
+ create mode 100644 app_historique/admin.py
+ create mode 100644 app_historique/apps.py
+ create mode 100644 app_historique/management/commands/purge_historique.py
+ create mode 100644 app_historique/middleware.py
+ create mode 100644 app_historique/migrations/0001_initial.py
+ create mode 100644 app_historique/migrations/0002_alter_historiqueuser_user_nul
+lable.py
+ create mode 100644 app_historique/migrations/0003_alter_historiqueuser_action_a
+nd_more.py
+ create mode 100644 app_historique/migrations/__init__.py
+ create mode 100644 app_historique/migrations/__pycache__/0001_initial.cpython-3
+11.pyc
+ create mode 100644 app_historique/migrations/__pycache__/0001_initial.cpython-3
+12.pyc
+ create mode 100644 app_historique/migrations/__pycache__/0002_alter_historiqueu
+ser_user_nullable.cpython-311.pyc
+ create mode 100644 app_historique/migrations/__pycache__/0002_alter_historiqueu
+ser_user_nullable.cpython-312.pyc
+ create mode 100644 app_historique/migrations/__pycache__/0003_alter_historiqueu
+ser_action_and_more.cpython-311.pyc
+ create mode 100644 app_historique/migrations/__pycache__/0003_alter_historiqueu
+ser_action_and_more.cpython-312.pyc
+ create mode 100644 app_historique/migrations/__pycache__/__init__.cpython-311.p
+yc
+ create mode 100644 app_historique/migrations/__pycache__/__init__.cpython-312.p
+yc
+ create mode 100644 app_historique/models.py
+ create mode 100644 app_historique/services.py
+ create mode 100644 app_historique/signals.py
+ create mode 100644 app_historique/tests.py
+ create mode 100644 app_historique/urls.py
+ create mode 100644 app_historique/views.py
+ create mode 100644 app_user/__init__.py
+ create mode 100644 app_user/__pycache__/__init__.cpython-311.pyc
+ create mode 100644 app_user/__pycache__/__init__.cpython-312.pyc
+ create mode 100644 app_user/__pycache__/admin.cpython-311.pyc
+ create mode 100644 app_user/__pycache__/admin.cpython-312.pyc
+ create mode 100644 app_user/__pycache__/apps.cpython-311.pyc
+ create mode 100644 app_user/__pycache__/apps.cpython-312.pyc
+ create mode 100644 app_user/__pycache__/models.cpython-311.pyc
+ create mode 100644 app_user/__pycache__/models.cpython-312.pyc
+ create mode 100644 app_user/__pycache__/urls.cpython-311.pyc
+ create mode 100644 app_user/__pycache__/urls.cpython-312.pyc
+ create mode 100644 app_user/__pycache__/views.cpython-311.pyc
+ create mode 100644 app_user/__pycache__/views.cpython-312.pyc
+ create mode 100644 app_user/admin.py
+ create mode 100644 app_user/apps.py
+ create mode 100644 app_user/migrations/0001_initial.py
+ create mode 100644 app_user/migrations/0002_setup_menus.py
+ create mode 100644 app_user/migrations/0003_alter_menuacces_user_delete_user.py
+ create mode 100644 app_user/migrations/0004_alter_menu_code_menu_rolemenuacces_
+delete_menuacces.py
+ create mode 100644 app_user/migrations/0005_seed_rolemenuacces.py
+ create mode 100644 app_user/migrations/__init__.py
+ create mode 100644 app_user/migrations/__pycache__/0001_initial.cpython-311.pyc
+ create mode 100644 app_user/migrations/__pycache__/0001_initial.cpython-312.pyc
+ create mode 100644 app_user/migrations/__pycache__/0002_setup_menus.cpython-311
+.pyc
+ create mode 100644 app_user/migrations/__pycache__/0002_setup_menus.cpython-312
+.pyc
+ create mode 100644 app_user/migrations/__pycache__/0003_alter_menuacces_user_de
+lete_user.cpython-311.pyc
+ create mode 100644 app_user/migrations/__pycache__/0003_alter_menuacces_user_de
+lete_user.cpython-312.pyc
+ create mode 100644 app_user/migrations/__pycache__/0004_alter_menu_code_menu_ro
+lemenuacces_delete_menuacces.cpython-311.pyc
+ create mode 100644 app_user/migrations/__pycache__/0004_alter_menu_code_menu_ro
+lemenuacces_delete_menuacces.cpython-312.pyc
+ create mode 100644 app_user/migrations/__pycache__/0005_seed_rolemenuacces.cpyt
+hon-311.pyc
+ create mode 100644 app_user/migrations/__pycache__/0005_seed_rolemenuacces.cpyt
+hon-312.pyc
+ create mode 100644 app_user/migrations/__pycache__/__init__.cpython-311.pyc
+ create mode 100644 app_user/migrations/__pycache__/__init__.cpython-312.pyc
+ create mode 100644 app_user/models.py
+ create mode 100644 app_user/templatetags/__init__.py
+ create mode 100644 app_user/templatetags/__pycache__/__init__.cpython-311.pyc
+ create mode 100644 app_user/templatetags/__pycache__/__init__.cpython-312.pyc
+ create mode 100644 app_user/templatetags/__pycache__/admin_extras - Copie.cpyth
+on-311.pyc
+ create mode 100644 app_user/templatetags/__pycache__/admin_extras.cpython-311.p
+yc
+ create mode 100644 app_user/templatetags/__pycache__/admin_extras.cpython-312.p
+yc
+ create mode 100644 app_user/templatetags/admin_extras.py
+ create mode 100644 app_user/tests.py
+ create mode 100644 app_user/urls.py
+ create mode 100644 app_user/views.py
+ create mode 100644 db.sqlite3
+ create mode 100644 manage.py
+ create mode 100644 media/static/images/00_PLAGE_ARBRE_MER.jpg
+ create mode 100644 media/static/images/00_PLAGE_ARBRE_MER_wHrL3Bd.jpg
+ create mode 100644 media/static/images/8_1sasa11.jpg
+ create mode 100644 media/static/images/BRUEL.jpg
+ create mode 100644 media/static/images/BRUEL_Patrick-24x30-2002.jpg
+ create mode 100644 media/static/images/BRUEL_Patrick-24x30-2002_5PkaOYv.jpg
+ create mode 100644 media/static/images/Charlie_Chapelin.jpg
+ create mode 100644 media/static/images/Charlie_Chapelin_XwxWagd.jpg
+ create mode 100644 media/static/images/Charlie_Chapelin_XwxWagd_YAfy1oM.jpg
+ create mode 100644 media/static/images/Emma.JPG
+ create mode 100644 media/static/images/Emma_Eming.JPG
+ create mode 100644 media/static/images/Emma_Eming_2JnSttV.JPG
+ create mode 100644 media/static/images/Emma_Eming_2JnSttV_Cz9NFt3.JPG
+ create mode 100644 media/static/images/Emma_Eming_2JnSttV_EqrRjyg.JPG
+ create mode 100644 media/static/images/Emma_Eming_2JnSttV_nEfMAZe.JPG
+ create mode 100644 media/static/images/Emma_Eming_2JnSttV_p18J55N.JPG
+ create mode 100644 media/static/images/Emma_Eming_BoCgMRH.JPG
+ create mode 100644 media/static/images/Emma_Eming_GijPhiu.JPG
+ create mode 100644 media/static/images/Emma_Eming_GijPhiu_zAi03XQ.JPG
+ create mode 100644 media/static/images/Emma_Eming_GijPhiu_zAi03XQ_ZZ1KnFg.JPG
+ create mode 100644 media/static/images/Emma_Eming_GijPhiu_zAi03XQ_ZZ1KnFg_Hq2H8
+MS.JPG
+ create mode 100644 media/static/images/Emma_Eming_KvIFwWs.JPG
+ create mode 100644 media/static/images/Emma_Eming_eZi6JBR.JPG
+ create mode 100644 media/static/images/Emma_Eming_eZi6JBR_H2tVaek.JPG
+ create mode 100644 media/static/images/Emma_Eming_eZi6JBR_Hm5tl8p.JPG
+ create mode 100644 media/static/images/Emma_Eming_eZi6JBR_oEkkBcu.JPG
+ create mode 100644 media/static/images/Emma_Eming_eZi6JBR_uHsh1Fi.JPG
+ create mode 100644 media/static/images/Emma_Eming_ia8Kw9H.JPG
+ create mode 100644 media/static/images/Emma_Eming_sCoXQlA.JPG
+ create mode 100644 media/static/images/Emma_Eming_xCpVE2N.JPG
+ create mode 100644 media/static/images/Human_Resource.PNG
+ create mode 100644 media/static/images/John_Cena.jpg
+ create mode 100644 media/static/images/John_Cena_aTFKtCN.jpg
+ create mode 100644 media/static/images/John_Cena_aTFKtCN_OTTPwS9.jpg
+ create mode 100644 media/static/images/Johnny_Hallyday.jpg
+ create mode 100644 media/static/images/Johnny_Hallyday_38X0plB.jpg
+ create mode 100644 media/static/images/Johnny_Hallyday_38X0plB_HsrWzj8.jpg
+ create mode 100644 media/static/images/Mario.JPG
+ create mode 100644 media/static/images/Mario2capture.JPG
+ create mode 100644 media/static/images/Mario2capture_30hd5ek.JPG
+ create mode 100644 media/static/images/Mario2capture_5alauDu.JPG
+ create mode 100644 media/static/images/Mario2capture_M7bqVOR.JPG
+ create mode 100644 media/static/images/Mario2capture_p3uolZx.JPG
+ create mode 100644 media/static/images/Mario_7N9RJXA.JPG
+ create mode 100644 media/static/images/Mario_8T618j0.JPG
+ create mode 100644 media/static/images/Mario_9HVjT6a.JPG
+ create mode 100644 media/static/images/Mario_BvJdX5N.JPG
+ create mode 100644 media/static/images/Mario_CRnl3b3.JPG
+ create mode 100644 media/static/images/Mario_MtCh4Ec.JPG
+ create mode 100644 media/static/images/Mario_Pzw6IF0.JPG
+ create mode 100644 media/static/images/Mario_Wfxdi4M.JPG
+ create mode 100644 media/static/images/Mario_Wfxdi4M_rcROOF6.JPG
+ create mode 100644 media/static/images/Mario_Wfxdi4M_rcROOF6_0mcnXKC.JPG
+ create mode 100644 media/static/images/Mario_ftE9Lng.JPG
+ create mode 100644 media/static/images/Mario_m85Yp2C.JPG
+ create mode 100644 media/static/images/Mario_oxseEAm.JPG
+ create mode 100644 media/static/images/Mario_photo.jpeg
+ create mode 100644 media/static/images/Mario_photo_03CHaxw.jpeg
+ create mode 100644 media/static/images/Mario_photo_7vTY6x7.jpeg
+ create mode 100644 media/static/images/Mario_photo_8Jtrn37.jpeg
+ create mode 100644 media/static/images/Mario_photo_WStw9jc.jpeg
+ create mode 100644 media/static/images/Mario_photo_WStw9jc_JyUDrGn.jpeg
+ create mode 100644 media/static/images/Mario_photo_WStw9jc_LaqBYLF.jpeg
+ create mode 100644 media/static/images/Mario_photo_WStw9jc_SIc2NcK.jpeg
+ create mode 100644 media/static/images/Mario_photo_WStw9jc_WhjwD2p.jpeg
+ create mode 100644 media/static/images/Mario_photo_Wsbgw7z.jpeg
+ create mode 100644 media/static/images/Mario_photo_pETfkqz.jpeg
+ create mode 100644 media/static/images/Mario_photo_pETfkqz_JuJPCdG.jpeg
+ create mode 100644 media/static/images/Mario_photo_wwvcx1k.jpeg
+ create mode 100644 media/static/images/Mario_r89pKhz.JPG
+ create mode 100644 media/static/images/Mario_r89pKhz_wItUSCC.JPG
+ create mode 100644 media/static/images/Mario_r89pKhz_wItUSCC_AvrJFZM.JPG
+ create mode 100644 media/static/images/Mario_r89pKhz_wItUSCC_AvrJFZM_N6xPjgu.JP
+G
+ create mode 100644 media/static/images/Ordinateur.png
+ create mode 100644 media/static/images/Ordinateur_1OgiEYY.png
+ create mode 100644 media/static/images/Ordinateur_1OgiEYY_jgdslf3.png
+ create mode 100644 media/static/images/Ordinateur_1OgiEYY_jgdslf3_gaWRzVK.png
+ create mode 100644 media/static/images/Ordinateur_1OgiEYY_jgdslf3_gaWRzVK_9ZTsT
+fT.png
+ create mode 100644 media/static/images/Ordinateur_C3S4h8u.png
+ create mode 100644 media/static/images/Ordinateur_DllCGqg.png
+ create mode 100644 media/static/images/Ordinateur_DllCGqg_aAl6fc7.png
+ create mode 100644 media/static/images/Ordinateur_DllCGqg_bUT0Hx8.png
+ create mode 100644 media/static/images/Ordinateur_DllCGqg_gAPvjpw.png
+ create mode 100644 media/static/images/Ordinateur_DllCGqg_xUem2Ke.png
+ create mode 100644 media/static/images/Ordinateur_GoxH9i4.png
+ create mode 100644 media/static/images/Ordinateur_Htu9DFt.png
+ create mode 100644 media/static/images/Ordinateur_WBnwt6L.png
+ create mode 100644 media/static/images/Ordinateur_cL3nUx6.png
+ create mode 100644 media/static/images/Ordinateur_cL3nUx6_QWSIOdz.png
+ create mode 100644 media/static/images/Ordinateur_fBeEZyk.png
+ create mode 100644 media/static/images/Ordinateur_oxg2zf2.png
+ create mode 100644 media/static/images/Ordinateur_p2IKbsB.png
+ create mode 100644 media/static/images/arnold_adult.jpg
+ create mode 100644 media/static/images/arnold_schwarzenegger_adult.jpg
+ create mode 100644 media/static/images/arnold_schwarzenegger_adult_AbfFNgz.jpg
+ create mode 100644 media/static/images/arnold_schwarzenegger_adult_AbfFNgz_LZaj
+6Vo.jpg
+ create mode 100644 media/static/images/arnold_schwarzenegger_adult_AbfFNgz_PHVU
+hvn.jpg
+ create mode 100644 media/static/images/arnold_schwarzenegger_adult_AbfFNgz_qlSx
+15k.jpg
+ create mode 100644 media/static/images/arnold_schwarzenegger_adult_AbfFNgz_saPZ
+LrK.jpg
+ create mode 100644 media/static/images/arnold_schwarzenegger_jeune.jpg
+ create mode 100644 media/static/images/arnold_schwarzenegger_jeune2.jpg
+ create mode 100644 media/static/images/arnold_schwarzenegger_jeune4.jpg
+ create mode 100644 media/static/images/arnold_schwarzenegger_jeune4_51Ki4CD.jpg
+ create mode 100644 media/static/images/arnold_schwarzenegger_jeune4_51Ki4CD_FqE
+XgGg.jpg
+ create mode 100644 media/static/images/arnold_schwarzenegger_jeune4_51Ki4CD_GW7
+CNML.jpg
+ create mode 100644 media/static/images/arnold_schwarzenegger_jeune4_51Ki4CD_Kqj
+HYO5.jpg
+ create mode 100644 media/static/images/arnold_schwarzenegger_jeune4_51Ki4CD_eTv
+NkQQ.jpg
+ create mode 100644 media/static/images/arnold_schwarzenegger_jeune4_GaLbL3K.jpg
+ create mode 100644 media/static/images/arnold_schwarzenegger_jeune4_Rzdy4Mf.jpg
+ create mode 100644 media/static/images/arnold_schwarzenegger_jeune4_Uxwp2WQ.jpg
+ create mode 100644 media/static/images/arnold_schwarzenegger_jeune4_Uxwp2WQ_8hC
+DBbX.jpg
+ create mode 100644 media/static/images/arnold_schwarzenegger_jeune4_jYH6jNA.jpg
+ create mode 100644 media/static/images/arnold_schwarzenegger_jeune4_jYH6jNA_RVr
+YE7R.jpg
+ create mode 100644 media/static/images/arnold_schwarzenegger_jeune4_jYH6jNA_RVr
+YE7R_qNRVHNy.jpg
+ create mode 100644 media/static/images/arnold_schwarzenegger_jeune4_jYH6jNA_RVr
+YE7R_qNRVHNy_aWSbN1J.jpg
+ create mode 100644 media/static/images/arnold_schwarzenegger_jeune_eTm4wZp.jpg
+ create mode 100644 media/static/images/arnold_schwarzenegger_jeune_eTm4wZp_G1Ir
+UAu.jpg
+ create mode 100644 media/static/images/arnold_schwarzenegger_vieux1.JPG
+ create mode 100644 media/static/images/arnold_schwarzenegger_vieux2.JPG
+ create mode 100644 media/static/images/arnold_schwarzenegger_vieux2_Ud8jtNL.JPG
+ create mode 100644 media/static/images/arnold_schwarzenegger_vieux2_qEKsCXp.JPG
+ create mode 100644 media/static/images/arnold_schwarzenegger_vieux2_rk632Os.JPG
+ create mode 100644 media/static/images/arnold_schwarzenegger_vieux3.JPG
+ create mode 100644 media/static/images/arnold_schwarzenegger_vieux3_q45riY7.JPG
+ create mode 100644 media/static/images/belle-photo1.jpg
+ create mode 100644 media/static/images/bord_de_terre.png
+ create mode 100644 media/static/images/bruce_fille.JPG
+ create mode 100644 media/static/images/bruce_wilis2.jpg
+ create mode 100644 media/static/images/bruce_wilis2_K2QOQdF.jpg
+ create mode 100644 media/static/images/bruce_wilis2_eQgob5D.jpg
+ create mode 100644 media/static/images/bruce_wilis2_o1Dv6J2.jpg
+ create mode 100644 media/static/images/bruce_wilis2_yD5gZWx.jpg
+ create mode 100644 media/static/images/bruce_willis.jpg
+ create mode 100644 media/static/images/bruce_willis_06Idl06.jpg
+ create mode 100644 media/static/images/bruce_willis_0LQALOB.jpg
+ create mode 100644 media/static/images/bruce_willis_0dfOCTL.jpg
+ create mode 100644 media/static/images/bruce_willis_0dfOCTL_VPa30gl.jpg
+ create mode 100644 media/static/images/bruce_willis_0dfOCTL_VPa30gl_2NlM359.jpg
+ create mode 100644 media/static/images/bruce_willis_0dfOCTL_VPa30gl_PCZHn6F.jpg
+ create mode 100644 media/static/images/bruce_willis_0dfOCTL_VPa30gl_fCH62pV.jpg
+ create mode 100644 media/static/images/bruce_willis_0dfOCTL_VPa30gl_rlnTP8D.jpg
+ create mode 100644 media/static/images/bruce_willis_2UgC9nI.jpg
+ create mode 100644 media/static/images/bruce_willis_3xGtmnr.jpg
+ create mode 100644 media/static/images/bruce_willis_3xGtmnr_6aXqXa1.jpg
+ create mode 100644 media/static/images/bruce_willis_3xGtmnr_INGQMNr.jpg
+ create mode 100644 media/static/images/bruce_willis_3xGtmnr_k02lrBl.jpg
+ create mode 100644 media/static/images/bruce_willis_3xGtmnr_nb1yrIT.jpg
+ create mode 100644 media/static/images/bruce_willis_4G9qDC1.jpg
+ create mode 100644 media/static/images/bruce_willis_4G9qDC1_0HKdaRy.jpg
+ create mode 100644 media/static/images/bruce_willis_JDibJlm.jpg
+ create mode 100644 media/static/images/bruce_willis_JDibJlm_Wb6SSR9.jpg
+ create mode 100644 media/static/images/bruce_willis_fille.JPG
+ create mode 100644 media/static/images/bruce_willis_fille_HeTwnpf.JPG
+ create mode 100644 media/static/images/bruce_willis_fille_QnMyGFX.JPG
+ create mode 100644 media/static/images/bruce_willis_rWC1ABA.jpg
+ create mode 100644 media/static/images/bruce_willis_viSmt1b.jpg
+ create mode 100644 media/static/images/bruce_willis_viSmt1b_sCIIEZS.jpg
+ create mode 100644 media/static/images/bruce_willis_viSmt1b_sCIIEZS_yGOXHrK.jpg
+ create mode 100644 media/static/images/bruce_willis_wa6o3su.jpg
+ create mode 100644 media/static/images/camion-benne.jpg
+ create mode 100644 media/static/images/camion-benne_PVp49b8.jpg
+ create mode 100644 media/static/images/camion-benne_y8XGHsb.jpg
+ create mode 100644 media/static/images/camion-benne_yMZfF9s.jpg
+ create mode 100644 media/static/images/camion-citerne.jpg
+ create mode 100644 media/static/images/camion-citerne_CU9kQNX.jpg
+ create mode 100644 media/static/images/camion-citerne_fBFIT3t.jpg
+ create mode 100644 media/static/images/camion-citerne_fBFIT3t_TyusvwX.jpg
+ create mode 100644 media/static/images/camion-citerne_fBFIT3t_TyusvwX_YMYln0p.j
+pg
+ create mode 100644 media/static/images/camion-citerne_fBFIT3t_TyusvwX_YMYln0p_z
+mL5t3T.jpg
+ create mode 100644 media/static/images/camion_fourgon.JPG
+ create mode 100644 media/static/images/camion_fourgon_1ycer49.JPG
+ create mode 100644 media/static/images/camion_fourgon_35mzdS3.JPG
+ create mode 100644 media/static/images/camion_fourgon_35mzdS3_bSseyL5.JPG
+ create mode 100644 media/static/images/camion_fourgon_61UuOL3.JPG
+ create mode 100644 media/static/images/camion_fourgon_61UuOL3_jcHI5Iu.JPG
+ create mode 100644 media/static/images/camion_fourgon_6sMuJWH.JPG
+ create mode 100644 media/static/images/camion_fourgon_79AtxiU.JPG
+ create mode 100644 media/static/images/camion_fourgon_9kYLU4U.JPG
+ create mode 100644 media/static/images/camion_fourgon_9kYLU4U_6EesheK.JPG
+ create mode 100644 media/static/images/camion_fourgon_9kYLU4U_B8EKMlK.JPG
+ create mode 100644 media/static/images/camion_fourgon_9kYLU4U_solk9Yp.JPG
+ create mode 100644 media/static/images/camion_fourgon_9kYLU4U_xXeAINK.JPG
+ create mode 100644 media/static/images/camion_fourgon_H3nZpHf.JPG
+ create mode 100644 media/static/images/camion_fourgon_H3nZpHf_6bsIanX.JPG
+ create mode 100644 media/static/images/camion_fourgon_H3nZpHf_9DFz6Jo.JPG
+ create mode 100644 media/static/images/camion_fourgon_H3nZpHf_JnYpxXM.JPG
+ create mode 100644 media/static/images/camion_fourgon_H3nZpHf_KOMeZbs.JPG
+ create mode 100644 media/static/images/camion_fourgon_HMJ4fIC.JPG
+ create mode 100644 media/static/images/camion_fourgon_KgmR43z.JPG
+ create mode 100644 media/static/images/camion_fourgon_KgmR43z_0mekd7N.JPG
+ create mode 100644 media/static/images/camion_fourgon_KgmR43z_0mekd7N_w1OlPs8.J
+PG
+ create mode 100644 media/static/images/camion_fourgon_NXeOyK6.JPG
+ create mode 100644 media/static/images/camion_fourgon_TUkmnjC.JPG
+ create mode 100644 media/static/images/camion_fourgon_UQ4ICY4.JPG
+ create mode 100644 media/static/images/camion_fourgon_c5upgUw.JPG
+ create mode 100644 media/static/images/camion_fourgon_c5upgUw_h9V6fwB.JPG
+ create mode 100644 media/static/images/camion_fourgon_gp2J3H7.JPG
+ create mode 100644 media/static/images/camion_fourgon_i5VCIFg.JPG
+ create mode 100644 media/static/images/camion_fourgon_pECDsFc.JPG
+ create mode 100644 media/static/images/camion_fourgon_pW3173T.JPG
+ create mode 100644 media/static/images/camion_fourgon_pW3173T_mDIeOb5.JPG
+ create mode 100644 media/static/images/camion_fourgon_pW3173T_oOQGDLC.JPG
+ create mode 100644 media/static/images/camion_fourgon_wAW86JC.JPG
+ create mode 100644 media/static/images/camion_frigorifique.jpg
+ create mode 100644 media/static/images/camion_frigorifique_1oiUzG9.jpg
+ create mode 100644 media/static/images/camion_frigorifique_5TS0xNI.jpg
+ create mode 100644 media/static/images/camion_frigorifique_EHgNhYQ.jpg
+ create mode 100644 media/static/images/camion_frigorifique_EHgNhYQ_OvRsGQC.jpg
+ create mode 100644 media/static/images/camion_frigorifique_EHgNhYQ_RccH3zQ.jpg
+ create mode 100644 media/static/images/camion_frigorifique_EHgNhYQ_SwGtrBw.jpg
+ create mode 100644 media/static/images/camion_frigorifique_EHgNhYQ_eXaImc0.jpg
+ create mode 100644 media/static/images/camion_frigorifique_FnoO8xh.jpg
+ create mode 100644 media/static/images/camion_frigorifique_Ii9nkOR.jpg
+ create mode 100644 media/static/images/camion_frigorifique_Ii9nkOR_W1AUxvh.jpg
+ create mode 100644 media/static/images/camion_frigorifique_Ii9nkOR_W1AUxvh_ccdY
+QGm.jpg
+ create mode 100644 media/static/images/camion_frigorifique_Ii9nkOR_W1AUxvh_ccdY
+QGm_E1J50Ls.jpg
+ create mode 100644 media/static/images/camion_frigorifique_TlQndXI.jpg
+ create mode 100644 media/static/images/camion_frigorifique_X3TEPmA.jpg
+ create mode 100644 media/static/images/camion_frigorifique_Xst5tq0.jpg
+ create mode 100644 media/static/images/camion_frigorifique_a0bf2G4.jpg
+ create mode 100644 media/static/images/camion_frigorifique_azSRGzO.jpg
+ create mode 100644 media/static/images/camion_frigorifique_e1vryvc.jpg
+ create mode 100644 media/static/images/camion_frigorifique_e1vryvc_T3Jyb0F.jpg
+ create mode 100644 media/static/images/camion_frigorifique_e1vryvc_YKxqcV6.jpg
+ create mode 100644 media/static/images/camion_frigorifique_e1vryvc_cgUh34E.jpg
+ create mode 100644 media/static/images/camion_frigorifique_e1vryvc_fLyCeCq.jpg
+ create mode 100644 media/static/images/camion_frigorifique_mx1wLaD.jpg
+ create mode 100644 media/static/images/camion_frigorifique_qYAld24.jpg
+ create mode 100644 media/static/images/camion_frigorifique_sgxcXbd.jpg
+ create mode 100644 media/static/images/camion_frigorifique_y0gWHwc.jpg
+ create mode 100644 media/static/images/camion_frigorifique_y0gWHwc_7qv94rG.jpg
+ create mode 100644 media/static/images/camion_plateau.jpg
+ create mode 100644 media/static/images/camion_plateau_NVHGxEv.jpg
+ create mode 100644 media/static/images/camion_plateau_NVHGxEv_Ex9vv0s.jpg
+ create mode 100644 media/static/images/camion_plateau_NVHGxEv_Ex9vv0s_s6FasdK.j
+pg
+ create mode 100644 media/static/images/camion_semi-remorque.jpg
+ create mode 100644 media/static/images/camion_semi-remorque_O1IEqv6.jpg
+ create mode 100644 media/static/images/camion_semi-remorque_O1IEqv6_JuqQkO9.jpg
+ create mode 100644 media/static/images/camion_semi-remorque_O1IEqv6_JuqQkO9_QDA
+l55A.jpg
+ create mode 100644 media/static/images/camion_tautliner.JPG
+ create mode 100644 media/static/images/camion_tautliner_0PtibQY.JPG
+ create mode 100644 media/static/images/camion_tautliner_0PtibQY_FwDWvfk.JPG
+ create mode 100644 media/static/images/camion_tautliner_1cor094.JPG
+ create mode 100644 media/static/images/camion_tautliner_5LYT0SY.JPG
+ create mode 100644 media/static/images/camion_tautliner_5LYT0SY_0NaOMhL.JPG
+ create mode 100644 media/static/images/camion_tautliner_5LYT0SY_0NaOMhL_8IWNvE9
+.JPG
+ create mode 100644 media/static/images/camion_tautliner_9Q0mXkE.JPG
+ create mode 100644 media/static/images/camion_tautliner_C06ip2V.JPG
+ create mode 100644 media/static/images/camion_tautliner_C06ip2V_9YuNV0V.JPG
+ create mode 100644 media/static/images/camion_tautliner_C06ip2V_Cx4Agk4.JPG
+ create mode 100644 media/static/images/camion_tautliner_C06ip2V_eGVZyZn.JPG
+ create mode 100644 media/static/images/camion_tautliner_C06ip2V_jhCypoE.JPG
+ create mode 100644 media/static/images/camion_tautliner_F92uwwh.JPG
+ create mode 100644 media/static/images/camion_tautliner_IoTyPAI.JPG
+ create mode 100644 media/static/images/camion_tautliner_Jhhcuyh.JPG
+ create mode 100644 media/static/images/camion_tautliner_P7cjSoC.JPG
+ create mode 100644 media/static/images/camion_tautliner_P7cjSoC_2Mh1pjs.JPG
+ create mode 100644 media/static/images/camion_tautliner_P7cjSoC_7H76lPy.JPG
+ create mode 100644 media/static/images/camion_tautliner_P7cjSoC_8QeJIxl.JPG
+ create mode 100644 media/static/images/camion_tautliner_P7cjSoC_xm4MGIu.JPG
+ create mode 100644 media/static/images/camion_tautliner_Z7h9GMj.JPG
+ create mode 100644 media/static/images/camion_tautliner_nmcUysA.JPG
+ create mode 100644 media/static/images/camion_tautliner_wZtFLRI.JPG
+ create mode 100644 media/static/images/camion_tautliner_wZtFLRI_kkfUhCp.JPG
+ create mode 100644 media/static/images/camion_tautliner_wZtFLRI_kkfUhCp_FhBpMy5
+.JPG
+ create mode 100644 media/static/images/camion_tautliner_wZtFLRI_kkfUhCp_FhBpMy5
+_qrpZfob.JPG
+ create mode 100644 media/static/images/chicago.jpg
+ create mode 100644 media/static/images/imageORDINATEUR.jpg
+ create mode 100644 media/static/images/imageORDINATEUR_5Onfa7i.jpg
+ create mode 100644 media/static/images/imageORDINATEUR_7GTpHOA.jpg
+ create mode 100644 media/static/images/imageORDINATEUR_LQOC8E6.jpg
+ create mode 100644 media/static/images/imageORDINATEUR_Nj3yHnH.jpg
+ create mode 100644 media/static/images/imageORDINATEUR_Nj3yHnH_C0n40da.jpg
+ create mode 100644 media/static/images/imageORDINATEUR_Nj3yHnH_NfmnG89.jpg
+ create mode 100644 media/static/images/imageORDINATEUR_Nj3yHnH_QH4bYsl.jpg
+ create mode 100644 media/static/images/imageORDINATEUR_Nj3yHnH_rEXvp2O.jpg
+ create mode 100644 media/static/images/imageORDINATEUR_OBvPufu.jpg
+ create mode 100644 media/static/images/imageORDINATEUR_VPh4B20.jpg
+ create mode 100644 media/static/images/imageORDINATEUR_XoSjadw.jpg
+ create mode 100644 media/static/images/imageORDINATEUR_aYNtqWl.jpg
+ create mode 100644 media/static/images/imageORDINATEUR_aYNtqWl_XZ4GbTl.jpg
+ create mode 100644 media/static/images/imageORDINATEUR_aYNtqWl_XZ4GbTl_pTBsXPy.
+jpg
+ create mode 100644 media/static/images/imageORDINATEUR_fhQHvDz.jpg
+ create mode 100644 media/static/images/imageORDINATEUR_fq8J9Q3.jpg
+ create mode 100644 media/static/images/imageORDINATEUR_lxZ3tum.jpg
+ create mode 100644 media/static/images/imageORDINATEUR_sOyFFVP.jpg
+ create mode 100644 media/static/images/image_Terre.jpg
+ create mode 100644 media/static/images/image_face_2.jpg
+ create mode 100644 media/static/images/miracast_dongle_hdmi.jpg
+ create mode 100644 media/static/images/samuel.jpg
+ create mode 100644 portfolio/__init__.py
+ create mode 100644 portfolio/__pycache__/__init__.cpython-311.pyc
+ create mode 100644 portfolio/__pycache__/__init__.cpython-312.pyc
+ create mode 100644 portfolio/__pycache__/settings.cpython-311.pyc
+ create mode 100644 portfolio/__pycache__/settings.cpython-312.pyc
+ create mode 100644 portfolio/__pycache__/urls.cpython-311.pyc
+ create mode 100644 portfolio/__pycache__/urls.cpython-312.pyc
+ create mode 100644 portfolio/__pycache__/wsgi.cpython-311.pyc
+ create mode 100644 portfolio/__pycache__/wsgi.cpython-312.pyc
+ create mode 100644 portfolio/asgi.py
+ create mode 100644 portfolio/settings.py
+ create mode 100644 portfolio/urls.py
+ create mode 100644 portfolio/wsgi.py
+ create mode 100644 requirements.txt
+ create mode 100644 static/images_stockees/camion-benne.JPG
+ create mode 100644 static/images_stockees/camion-citerne.JPG
+ create mode 100644 static/images_stockees/camion-routier.JPG
+ create mode 100644 static/images_stockees/camion_fourgon.JPG
+ create mode 100644 static/images_stockees/camion_frigorifique.JPG
+ create mode 100644 static/images_stockees/camion_plateau.JPG
+ create mode 100644 static/images_stockees/camion_porte-char.JPG
+ create mode 100644 static/images_stockees/camion_semi-remorque.JPG
+ create mode 100644 static/images_stockees/camion_tautliner.JPG
+ create mode 100644 static/images_stockees/image_Terre.jpg
+ create mode 100644 static/images_stockees/img_lights_wide.jpg
+ create mode 100644 static/images_stockees/img_mountains_wide.jpg
+ create mode 100644 static/images_stockees/img_snow_wide.jpg
+ create mode 100644 templates/TransportRoutier_Main.html
+ create mode 100644 templates/app_historique/fragment_historique.html
+ create mode 100644 templates/diapo_Javascript_Page1.html
+ create mode 100644 templates/email_Javascript.htm
+ create mode 100644 templates/index.html
+ create mode 100644 templates/layouts/footer.html
+ create mode 100644 templates/layouts/header.html
+ create mode 100644 templates/layouts/main.html
+ create mode 100644 templates/login.html
+ create mode 100644 templates/page_administration.html
+ create mode 100644 templates/page_inscription.html
+ create mode 100644 templates/page_utilisateur.html
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github19/PORTFOLIO-cv-MARIO-8 (main)
+$ git push origin main
+Enumerating objects: 351, done.
+Counting objects: 100% (351/351), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (340/340), done.
+Writing objects: 100% (349/349), 10.39 MiB | 16.74 MiB/s, done.
+Total 349 (delta 84), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (84/84), completed with 1 local object.
+To https://github.com/Mariogit20/PORTFOLIO-cv-MARIO-8.git
+   49bd423..4948f50  main -> main
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github19/PORTFOLIO-cv-MARIO-8 (main)
+$ git add .
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github19/PORTFOLIO-cv-MARIO-8 (main)
+$ git commit -m "huit commit"
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github19/PORTFOLIO-cv-MARIO-8 (main)
+$ git push origin main
+Everything up-to-date
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github19/PORTFOLIO-cv-MARIO-8 (main)
+$ git add .
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github19/PORTFOLIO-cv-MARIO-8 (main)
+$ git commit -m "neuf commit"
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github19/PORTFOLIO-cv-MARIO-8 (main)
+$ git push origin main
+Everything up-to-date
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github19/PORTFOLIO-cv-MARIO-8 (main)
+$ git add .
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github19/PORTFOLIO-cv-MARIO-8 (main)
+$ git commit -m "dix commit"
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github19/PORTFOLIO-cv-MARIO-8 (main)
+$ git push origin main
+Everything up-to-date
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github19/PORTFOLIO-cv-MARIO-8 (main)
+$
