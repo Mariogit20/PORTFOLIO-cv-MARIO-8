@@ -1,0 +1,234 @@
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github19/PORTFOLIO-cv-MARIO-8 (main)
+$ gat add .
+bash: gat: command not found
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github19/PORTFOLIO-cv-MARIO-8 (main)
+$ git add .
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github19/PORTFOLIO-cv-MARIO-8 (main)
+$ git commit -m "dix commit"
+[main 277d9a6] dix commit
+ 26 files changed, 1544763 insertions(+)
+ create mode 100644 ANALYSE MERISE/0 ANALYSE MERISE.txt
+ create mode 100644 ANALYSE MERISE/10MERISE - MPT.docx
+ create mode 100644 ANALYSE MERISE/10MERISE - MPT.pdf
+ create mode 100644 ANALYSE MERISE/1MCD - PORTFOLIO.png
+ create mode 100644 ANALYSE MERISE/1MCD portfolio.png
+ create mode 100644 ANALYSE MERISE/1MERISE - MCD - PORTFOLIO.png
+ create mode 100644 ANALYSE MERISE/1MERISE avec Mermaid Live Editor.pdf
+ create mode 100644 ANALYSE MERISE/1MERISE avec Mermaid Live Editor.rtf
+ create mode 100644 ANALYSE MERISE/1Mermaid Live Editor.txt
+ create mode 100644 ANALYSE MERISE/1extension Mermaid Preview sur VS Code.png
+ create mode 100644 "ANALYSE MERISE/2R\303\210GLES DE GESTION (RG).docx"
+ create mode 100644 "ANALYSE MERISE/2R\303\210GLES DE GESTION (RG).pdf"
+ create mode 100644 "ANALYSE MERISE/3MERISE - DICTIONNAIRE DE DONN\303\211ES.doc
+x"
+ create mode 100644 "ANALYSE MERISE/3MERISE - DICTIONNAIRE DE DONN\303\211ES.pdf
+"
+ create mode 100644 ANALYSE MERISE/4MERISE - MCD.docx
+ create mode 100644 ANALYSE MERISE/4MERISE - MCD.pdf
+ create mode 100644 ANALYSE MERISE/5MERISE - MLD.docx
+ create mode 100644 ANALYSE MERISE/5MERISE - MLD.pdf
+ create mode 100644 ANALYSE MERISE/6MERISE - MPD.docx
+ create mode 100644 ANALYSE MERISE/6MERISE - MPD.pdf
+ create mode 100644 ANALYSE MERISE/7MERISE - MCT.docx
+ create mode 100644 ANALYSE MERISE/7MERISE - MCT.pdf
+ create mode 100644 ANALYSE MERISE/8MERISE - MOT.docx
+ create mode 100644 ANALYSE MERISE/8MERISE - MOT.pdf
+ create mode 100644 ANALYSE MERISE/9MERISE - MLT.docx
+ create mode 100644 ANALYSE MERISE/9MERISE - MLT.pdf
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github19/PORTFOLIO-cv-MARIO-8 (main)
+$ git push
+Enumerating objects: 28, done.
+Counting objects: 100% (28/28), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (27/27), done.
+Writing objects: 100% (27/27), 6.90 MiB | 3.42 MiB/s, done.
+Total 27 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+remote: error: Trace: 218812bb8255ca9b576662722df06bb7831b457694571126842164125e
+1d3fc4
+remote: error: See https://gh.io/lfs for more information.
+remote: error: File ANALYSE MERISE/1MERISE avec Mermaid Live Editor.rtf is 189.7
+9 MB; this exceeds GitHub's file size limit of 100.00 MB
+remote: error: GH001: Large files detected. You may want to try Git Large File S
+torage - https://git-lfs.github.com.
+To https://github.com/Mariogit20/PORTFOLIO-cv-MARIO-8.git
+ ! [remote rejected] main -> main (pre-receive hook declined)
+error: failed to push some refs to 'https://github.com/Mariogit20/PORTFOLIO-cv-M
+ARIO-8.git'
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github19/PORTFOLIO-cv-MARIO-8 (main)
+$ git reset --soft HEAD~1
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github19/PORTFOLIO-cv-MARIO-8 (main)
+$ git reset "ANALYSE MERISE/1MERISE avec Mermaid Live Editor.rtf"
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github19/PORTFOLIO-cv-MARIO-8 (main)
+$ git commit -m "dix commit - sans le fichier RTF volumineux"
+[main 8b37c5e] dix commit - sans le fichier RTF volumineux
+ 25 files changed, 3012 insertions(+)
+ create mode 100644 ANALYSE MERISE/0 ANALYSE MERISE.txt
+ create mode 100644 ANALYSE MERISE/10MERISE - MPT.docx
+ create mode 100644 ANALYSE MERISE/10MERISE - MPT.pdf
+ create mode 100644 ANALYSE MERISE/1MCD - PORTFOLIO.png
+ create mode 100644 ANALYSE MERISE/1MCD portfolio.png
+ create mode 100644 ANALYSE MERISE/1MERISE - MCD - PORTFOLIO.png
+ create mode 100644 ANALYSE MERISE/1MERISE avec Mermaid Live Editor.pdf
+ create mode 100644 ANALYSE MERISE/1Mermaid Live Editor.txt
+ create mode 100644 ANALYSE MERISE/1extension Mermaid Preview sur VS Code.png
+ create mode 100644 "ANALYSE MERISE/2R\303\210GLES DE GESTION (RG).docx"
+ create mode 100644 "ANALYSE MERISE/2R\303\210GLES DE GESTION (RG).pdf"
+ create mode 100644 "ANALYSE MERISE/3MERISE - DICTIONNAIRE DE DONN\303\211ES.doc
+x"
+ create mode 100644 "ANALYSE MERISE/3MERISE - DICTIONNAIRE DE DONN\303\211ES.pdf
+"
+ create mode 100644 ANALYSE MERISE/4MERISE - MCD.docx
+ create mode 100644 ANALYSE MERISE/4MERISE - MCD.pdf
+ create mode 100644 ANALYSE MERISE/5MERISE - MLD.docx
+ create mode 100644 ANALYSE MERISE/5MERISE - MLD.pdf
+ create mode 100644 ANALYSE MERISE/6MERISE - MPD.docx
+ create mode 100644 ANALYSE MERISE/6MERISE - MPD.pdf
+ create mode 100644 ANALYSE MERISE/7MERISE - MCT.docx
+ create mode 100644 ANALYSE MERISE/7MERISE - MCT.pdf
+ create mode 100644 ANALYSE MERISE/8MERISE - MOT.docx
+ create mode 100644 ANALYSE MERISE/8MERISE - MOT.pdf
+ create mode 100644 ANALYSE MERISE/9MERISE - MLT.docx
+ create mode 100644 ANALYSE MERISE/9MERISE - MLT.pdf
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github19/PORTFOLIO-cv-MARIO-8 (main)
+$ git remote set-url origin git@github.com:Mariogit20/PORTFOLIO-cv-MARIO-8.git
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github19/PORTFOLIO-cv-MARIO-8 (main)
+$ git push
+Enumerating objects: 27, done.
+Counting objects: 100% (27/27), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (26/26), done.
+Writing objects: 100% (26/26), 3.93 MiB | 95.00 KiB/s, done.
+Total 26 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To github.com:Mariogit20/PORTFOLIO-cv-MARIO-8.git
+   f5758c1..8b37c5e  main -> main
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github19/PORTFOLIO-cv-MARIO-8 (main)
+$ git lfs install
+Updated Git hooks.
+Git LFS initialized.
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github19/PORTFOLIO-cv-MARIO-8 (main)
+$ git lfs track "*.rtf"
+Tracking "*.rtf"
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github19/PORTFOLIO-cv-MARIO-8 (main)
+$ git add .gitattributes
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github19/PORTFOLIO-cv-MARIO-8 (main)
+$ git add "ANALYSE MERISE/1MERISE avec Mermaid Live Editor.rtf"
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github19/PORTFOLIO-cv-MARIO-8 (main)
+$ git commit -m "Ajout du fichier MERISE lourd via Git LFS"
+[main 032cf88] Ajout du fichier MERISE lourd via Git LFS
+ 2 files changed, 4 insertions(+)
+ create mode 100644 ANALYSE MERISE/1MERISE avec Mermaid Live Editor.rtf
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github19/PORTFOLIO-cv-MARIO-8 (main)
+$ git push
+Connection to github.com closed by remote host.B/s
+Uploading LFS objects:   0% (0/1), 14 MB | 65 KB/s
+Exiting because of "interrupt" signal.
+
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github19/PORTFOLIO-cv-MARIO-8 (main)
+$ git push
+Connection to github.com closed by remote host.B/s
+Uploading LFS objects:   0% (0/1), 6.5 MB | 58 KB/s
+Exiting because of "interrupt" signal.
+
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github19/PORTFOLIO-cv-MARIO-8 (main)
+$ nano ~/.ssh/config
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github19/PORTFOLIO-cv-MARIO-8 (main)
+$ git config --global http.postBuffer 524288000
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github19/PORTFOLIO-cv-MARIO-8 (main)
+$
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github19/PORTFOLIO-cv-MARIO-8 (main)
+$ gat add .
+bash: gat: command not found
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github19/PORTFOLIO-cv-MARIO-8 (main)
+$ git add .
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github19/PORTFOLIO-cv-MARIO-8 (main)
+$ git commit -m "dix commit"
+[main 277d9a6] dix commit
+ 26 files changed, 1544763 insertions(+)
+ create mode 100644 ANALYSE MERISE/0 ANALYSE MERISE.txt
+ create mode 100644 ANALYSE MERISE/10MERISE - MPT.docx
+ create mode 100644 ANALYSE MERISE/10MERISE - MPT.pdf
+ create mode 100644 ANALYSE MERISE/1MCD - PORTFOLIO.png
+ create mode 100644 ANALYSE MERISE/1MCD portfolio.png
+ create mode 100644 ANALYSE MERISE/1MERISE - MCD - PORTFOLIO.png
+ create mode 100644 ANALYSE MERISE/1MERISE avec Mermaid Live Editor.pdf
+ create mode 100644 ANALYSE MERISE/1MERISE avec Mermaid Live Editor.rtf
+ create mode 100644 ANALYSE MERISE/1Mermaid Live Editor.txt
+^CIO-cv-MARIO-8 (main)KTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github19/PORTF
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github19/PORTFOLIO-cv-MARIO-8 (main)
+$ git push
+Uploading LFS objects:   0% (0/1), 426 KB | 65 KB/s
+Exiting because of "interrupt" signal.
+
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github19/PORTFOLIO-cv-MARIO-8 (main)
+$ git config --global http.postBuffer 524288000
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github19/PORTFOLIO-cv-MARIO-8 (main)
+$ git add "ANALYSE MERISE/1MERISE avec Mermaid Live Editor.rtf"
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github19/PORTFOLIO-cv-MARIO-8 (main)
+$ git commit -m "Ajout du fichier MERISE lourd via Git LFS"
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github19/PORTFOLIO-cv-MARIO-8 (main)
+$ git push
+Uploading LFS objects:   0% (0/1), 459 KB | 82 KB/s
+Exiting because of "interrupt" signal.
+
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github19/PORTFOLIO-cv-MARIO-8 (main)
+$ nano ~/.ssh/config
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github19/PORTFOLIO-cv-MARIO-8 (main)
+$ git lfs push --all origin main
+Uploading LFS objects:  98% (41/42), 2.7 GB | 53 KB/s
+Exiting because of "interrupt" signal.
+
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github19/PORTFOLIO-cv-MARIO-8 (main)
+$ git lfs push origin main
+Uploading LFS objects: 100% (1/1), 200 MB | 118 KB/s, done.
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github19/PORTFOLIO-cv-MARIO-8 (main)
+$ git push
+Uploading LFS objects: 100% (1/1), 200 MB | 0 B/s, done.
+Enumerating objects: 8, done.
+Counting objects: 100% (8/8), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (5/5), 547 bytes | 30.00 KiB/s, done.
+Total 5 (delta 3), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (3/3), completed with 3 local objects.
+To github.com:Mariogit20/PORTFOLIO-cv-MARIO-8.git
+   8b37c5e..032cf88  main -> main
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github19/PORTFOLIO-cv-MARIO-8 (main)
+$
