@@ -1,0 +1,3 @@
+EMPLACEMENT DU DOSSIER      venv      CREE A PARTIR DU FICHIER      requirements.txt      :
+
+\PORTFOLIO-cv-MARIO-8\venv
